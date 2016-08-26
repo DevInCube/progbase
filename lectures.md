@@ -1,3 +1,11 @@
+#### Вступ
+
+-   [Лекція 1. Лекція 1. Анатомія комп'ютерних програм](https://docs.google.com/document/d/1upRTun9e4kJffITZFq6NISOiKZhzQ_e2FCxrTMDmsnc/edit?usp=sharing)
+-   [Лекція 2. Система контролю версій Git](https://docs.google.com/document/d/1iYxFxjd6LCIGjROghHk6KAA-DmihmYoMRnmg9frEy94/edit?usp=sharing)
+-   [Практика 1. Операційна система Ubuntu Linux](https://docs.google.com/document/d/1JaZVV6_QryMq6yCK0pUE38Dc7azp_GhBWtGxvaYBk5Q/edit?usp=sharing)
+-   [Практика 2. Компіляція програм](https://docs.google.com/document/d/1H5W8cj1l9j4eVTJj871_3noV5Uuxd_qPIY-9EZI5UQc/edit?usp=sharing)
+-   [Практика 3. Використання git. Виконання домашніх завдань](https://docs.google.com/document/d/1J8DbQ2kn__FKD2dHHyzLpIe4gz3RuNuzvTVNnu0mdZY/edit?usp=sharing)
+
 #### Розділ 1. Основи комп'ютерних наук
 
 -   [Лекція 1. Інформація та інформаційні технології. Дані. Системи
@@ -13,47 +21,23 @@
 -   [Лекція 6. Операційні
     системи](https://docs.google.com/document/d/1wKvvU5tXSOyxudQL4zMQ_qt7C3WO7y4zxixxNpd7D3o/edit?usp=sharing)
 
-#### Розділ 2. Основні можливості мови С
+#### Розділ 2. Базові можливості мови С
 
--   [Лекція 1. Вступ до мови С. Структура програм мовою С. Змінні, клас
-    зберігання змінних. Типи даних. Операції над
-    даними.](https://docs.google.com/document/d/1FKYDPtKOzEVtDZgI2carCY4xwUnfZqN23Y6-OvrENSo/edit?usp=sharing)
--   [Лекція 2. Контроль потоку виконання програми. Умовні конструкції.
-    Циклічні
-    конструкції.](https://docs.google.com/document/d/12wYgeWfLkiFkVb4tbt-JnMwxWCLiD8EZj05A63f3KEY/edit?usp=sharing)
--   [Лекція 3. Функції. Препроцесор і директиви
-    препроцесора.](https://docs.google.com/document/d/1R-e3mgcuFpe2FwoT4BFzfxW-y8CPwqpSZLgeDeum1pM/edit?usp=sharing)
--   [Лекція 4. Масиви, структури та об’єднання даних. Вказівники та
-    операції над ними.
-    Рядки.](https://docs.google.com/document/d/1nlQ2J9oilXZApm5HYiVB1cnBkIl-fhu54OecYfJzwEI/edit?usp=sharing)
--   [Лекція 5. Область видимості. Простори
-    імен](https://docs.google.com/document/d/16O4e4Fz2Srejlk7cgwSzYMMem6sHX9A20pWJO0wF4zY/edit?usp=sharing)
--   [Лекція 6. Робота із
-    вказівниками](https://docs.google.com/document/d/14lrPMsPFuxD9g6ta5uYBCpQKuaLU81-jqq2hErbchOU/edit?usp=sharing)
--   [Лекція 7. Робота з
-    файлами](https://docs.google.com/document/d/1PbAH9_Iwva7zG72Qds-iTyMhjMxTpgkBic-xTRa4LYE/edit?usp=sharing)
--   [Лекція 8. Структури даних. Стандартна бібліотека мови
-    С](https://docs.google.com/document/d/1zSxXjxLtc258pG0MQ-6BFe4CX3OFezgs250pFda8GIk/edit?usp=sharing)
--   [Лекція 9. Стандартна бібліотека мови С (Продовження). Стандарт
-    С99](https://docs.google.com/document/d/1YRYOFDwQWP_0AQ337TWDDZvoERp7POltVqkD7eGyrOU/edit?usp=sharing)
--   [Лекція 10. Стек викликів функцій. Рекурсія. Динамічні структури
-    даних](https://docs.google.com/document/d/1t8iEM7oveIoUPfX0V2aopXM6XM9rsPZf2SZbDn4dMzA/edit?usp=sharing)
+-   [Лекція 1. Структура програм мовою С. Змінні](https://docs.google.com/document/d/1K2QaDmNjokKRm2ft4oCRhdPoSIn6aC9ReFXsknHjmzw/edit?usp=sharing)
+-   [Лекція 2. Операції та вирази](https://docs.google.com/document/d/1QPV6xc_mK4lxfLfA-7NZeYU-P8XsO4fHN_LfE_3pPh0/edit?usp=sharing)
+-   [Лекція 3. Масиви](https://docs.google.com/document/d/180QGY8Ffg22r0VIGwmkB9_XSsf3rLLvLG3YsEh8a2qQ/edit?usp=sharing)
+-   [Лекція 4. Символи і строки](https://docs.google.com/document/d/1XTXErCCiWfwdkxrRGqSvir0XExS37M1b1iVlgqes550/edit?usp=sharing)
+-   [Лекція 5. Структури даних](https://docs.google.com/document/d/1lVKhSLSnSCNLz8c6AYkQDqGq9JvFadk8i1uYc2RWKLU/edit?usp=sharing)
+-   [Лекція 6. Функції](https://docs.google.com/document/d/1taRudyWhXwB_LcsSylt-ujQ_ocat3FcN2rJy-RPVLHU/edit?usp=sharing)
 
-### Додатково
+#### Розділ 3. Додаткові можливості мови С
 
--   [Консоль
-    (Windows/Linux)](https://docs.google.com/document/d/1sfdkNyOFoLy9sudAHv_EALovaeKIaFW0t81nZ8dj9bk/edit?usp=sharing)
--   [Робота зі строками в
-    С](https://docs.google.com/document/d/12E6nF5HnfCjVLWwQsO7lalSMLi2L2hO_xwCdrCIC6wc/edit?usp=sharing)
--   [Перевірка тверджень в
-    С](https://docs.google.com/document/d/1ezIQ2cBt2CDmo8ql3mDL-5nVf1SWCKQz6BEsZVJmIEY/edit?usp=sharing)
--   [Обмеження
-    С89](https://docs.google.com/document/d/1yNCM5tRembhhL_H_AnkOId_xCJxCwiwo-LlXD0nNeiY/edit?usp=sharing)
--   [Приклади використання рекурсії в
-    С](https://docs.google.com/document/d/1daRe7hpSrKf6rsr9xQv7U1KVMASuFiF_tYFppHh-G2o/edit?usp=sharing)
--   [Вступна лекція та
-    відеоматеріали](http://prog-base.appspot.com/extra.html)
--   [compmachines](https://compmachines.appspot.com/)
+-   [Лекція 1. Вказівники](https://docs.google.com/document/d/1GxvGRqBOryZ9Vvip5BQM1wKf0oDmexYuVexh8ALL2Wk/edit?usp=sharing)
+-   [Лекція 2. Динамічне виділення пам'яті](https://docs.google.com/document/d/1ovwOnHQ65NE8qaKG_iOgvoQUhxxGsNTxgDAqo26vxS0/edit?usp=sharing)
+-   [Лекція 3. Робота із файлами в мові С](https://docs.google.com/document/d/1PbAH9_Iwva7zG72Qds-iTyMhjMxTpgkBic-xTRa4LYE/edit?usp=sharing)
+-   [Лекція 4. Стек викликів функцій. Рекурсія](https://docs.google.com/document/d/1pl0YIU1rx3WcaX3mQT8aLKy1DVHHzuD5aWxnmVRnv5w/edit?usp=sharing)
+-   [Лекція 5. Стандартна бібліотека мови С. Робота із часовими типами даних](https://docs.google.com/document/d/1LrZVptW6VZFN944kjjqx5VCP1H5zGvJcgjTPbNQl9Sk/edit?usp=sharing)
+-   [Лекція 6. Стандарти С89 та С99](https://docs.google.com/document/d/1CrqE4jYhdI0sUMYmDgIoWP302_hJ-8zLEx2p_OKxpSo/edit?usp=sharing)
 
 ### Література
 
