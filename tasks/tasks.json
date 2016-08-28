@@ -1,26 +1,3 @@
 [
-  {
-    "task_id": "hello",
-    "title": "Hello, C!",
-    "deadline_time": "2016-08-26T07:20:29.163Z",
-    "link": "https://google.com"
-  },
-  {
-    "task_id": "test",
-    "title": "Hello, Test!",
-    "deadline_time": "2016-09-26T07:20:29.163Z",
-    "link": "https://google.com"
-  },
-  {
-    "task_id": "task1",
-    "title": "Hello, C!",
-    "deadline_time": "2016-01-26T07:20:29.163Z",
-    "link": "https://google.com"
-  },
-  {
-    "task_id": "task1",
-    "title": "Hello, C!",
-    "deadline_time": "2016-08-29T07:20:29.163Z",
-    "link": "https://google.com"
-  }
+  
 ]
