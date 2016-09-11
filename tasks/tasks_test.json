@@ -12,6 +12,18 @@
      "link": "/class/pb1/task/data_repr"
   },
   {
+     "task_id": "math",
+     "title": "Mathematical operations and functions",
+     "deadline_time": "2016-09-26T08:00:00.000Z",
+     "link": "/class/pb1/task/math"
+  },
+  {
+     "task_id": "console_graph",
+     "title": "Console Function Graphics",
+     "deadline_time": "2016-09-26T08:00:00.000Z",
+     "link": "/class/pb1/task/console_graph"
+  },
+  {
      "task_id": "files",
      "title": "Files Read And Write",
      "deadline_time": "2016-09-26T08:00:00.000Z",
