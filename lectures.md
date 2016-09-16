@@ -18,7 +18,7 @@
     пам’яті](https://docs.google.com/document/d/1dYTmerjpkVrSo0nK-vtVuUMA6TO_18DKG2ghqRtLqbw/edit?usp=sharing)
 -   [__Лекція 5__. Представлення даних у комп’ютерній
     пам’яті](https://docs.google.com/document/d/1-0foDUOfWb0gFDmPGHTbHhLwItNq473m0r5DUAm1FPs/edit?usp=sharing)
--   __[Лекція 6__. Операційні
+-   [__Лекція 6__. Операційні
     системи](https://docs.google.com/document/d/1wKvvU5tXSOyxudQL4zMQ_qt7C3WO7y4zxixxNpd7D3o/edit?usp=sharing)
 
 #### Розділ 2. Базові можливості мови С
