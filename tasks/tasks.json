@@ -1,3 +1,9 @@
 [
-  
+  {
+     "task_id": "numeral_systems",
+     "title": "Numeral Systems Conversions",
+     "deadline_time": "2016-09-26T08:00:00.000Z",
+     "score": 2,
+     "link": "/class/pb1/task/numeral_systems"
+  }
 ]
