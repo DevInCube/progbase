@@ -20,6 +20,7 @@
     пам’яті](https://docs.google.com/document/d/1-0foDUOfWb0gFDmPGHTbHhLwItNq473m0r5DUAm1FPs/edit?usp=sharing)
 -   [__Лекція 6__. Операційні
     системи](https://docs.google.com/document/d/1wKvvU5tXSOyxudQL4zMQ_qt7C3WO7y4zxixxNpd7D3o/edit?usp=sharing)
+-   [__Практика 1__. Використання циклів та умовних конструкцій для малювання у консолі](https://docs.google.com/document/d/1L4ZMCn4xat64OYzhhHUpt90LJfeTKMqcuaZDLBszGd0/edit?usp=sharing)
 
 #### Розділ 2. Базові можливості мови С
 
