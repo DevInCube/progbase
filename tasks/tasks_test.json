@@ -7,6 +7,13 @@
      "link": "/class/pb1/task/numeral_systems"
   },
   {
+     "task_id": "test_console_paint",
+     "title": "[Test] Console Paint",
+     "deadline_time": "2016-09-26T08:00:00.000Z",
+     "score": 3,
+     "link": "/class/pb1/task/test_console_paint"
+  },
+  {
      "task_id": "console_paint",
      "title": "Console Paint",
      "deadline_time": "2016-09-26T08:00:00.000Z",
