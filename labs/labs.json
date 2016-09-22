@@ -1,3 +1,9 @@
 [
-  
+  {
+     "task_id": "lab1",
+     "title": "Лабораторна робота №1",
+     "deadline_time": "2016-10-15T18:00:00.000Z",
+     "score": 7,
+     "link": "/class/pb1/lab/lab1"
+  }
 ]
