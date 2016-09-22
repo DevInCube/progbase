@@ -65,8 +65,8 @@
   },
   {
      "task_id": "extra_morse",
-     "title": "[Extra] Morse",
-     "deadline_time": "2016-09-26T08:00:00.000Z",
+     "title": "[Extra] Morse signal encoding and decoding",
+     "deadline_time": "2016-10-10T08:00:00.000Z",
      "score" : 5,
      "link": "/class/pb1/task/extra_morse"
   }
