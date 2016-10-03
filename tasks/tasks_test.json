@@ -33,6 +33,12 @@
      "link": "/class/pb1/task/math"
   },
   {
+     "task_id": "arrays",
+     "title": "Arrays",
+     "deadline_time": "2016-10-17T08:00:00.000Z",
+     "link": "/class/pb1/task/arrays"
+  },
+  {
      "task_id": "console_graph",
      "title": "Console Function Graphics",
      "deadline_time": "2016-09-26T08:00:00.000Z",
