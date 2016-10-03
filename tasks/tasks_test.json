@@ -36,7 +36,15 @@
      "task_id": "arrays",
      "title": "Arrays",
      "deadline_time": "2016-10-17T08:00:00.000Z",
+     "score": 2,
      "link": "/class/pb1/task/arrays"
+  },
+  {
+     "task_id": "strings_simple",
+     "title": "Strings Simple (No Pointers)",
+     "deadline_time": "2016-10-24T08:00:00.000Z",
+     "score": 2,
+     "link": "/class/pb1/task/strings_simple"
   },
   {
      "task_id": "console_graph",
