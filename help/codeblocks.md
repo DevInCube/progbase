@@ -1,4 +1,4 @@
-### Встановлення IDE Code::Blocks
+### Встановлення і налаштування IDE Code::Blocks
 
 ~~~~
 sudo apt-get install codeblocks
