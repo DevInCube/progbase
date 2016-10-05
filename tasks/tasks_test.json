@@ -33,6 +33,13 @@
      "link": "/class/pb1/task/arrays"
   },
   {
+     "task_id": "bitwise",
+     "title": "Bitwise Operations",
+     "deadline_time": "2016-10-13T08:00:00.000Z",
+     "score": 2,
+     "link": "/class/pb1/task/bitwise"
+  },
+  {
      "task_id": "strings_simple",
      "title": "Strings Simple (No Pointers)",
      "deadline_time": "2016-10-24T08:00:00.000Z",
