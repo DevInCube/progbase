@@ -33,6 +33,13 @@
      "link": "/class/pb1/task/arrays"
   },
   {
+     "task_id": "matrix_paint",
+     "title": "Matrix Console Paint",
+     "deadline_time": "2016-10-17T08:00:00.000Z",
+     "score": 2,
+     "link": "/class/pb1/task/matrix_paint"
+  },
+  {
      "task_id": "bitwise",
      "title": "Bitwise Operations",
      "deadline_time": "2016-10-13T08:00:00.000Z",
