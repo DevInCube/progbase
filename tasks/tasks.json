@@ -35,6 +35,13 @@
      "link": "/class/pb1/task/arrays"
   },
   {
+     "task_id": "matrix_paint",
+     "title": "Matrix Console Paint",
+     "deadline_time": "2016-10-24T08:00:00.000Z",
+     "score": 4,
+     "link": "/class/pb1/task/matrix_paint"
+  },
+  {
      "task_id": "extra_numeral_systems",
      "title": "[Extra] Numeral Systems Conversion Function",
      "deadline_time": "2016-09-26T08:00:00.000Z",
