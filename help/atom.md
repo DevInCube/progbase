@@ -1,5 +1,7 @@
 ### Встановлення і налаштування редактора Atom
 
+![AtomLogo](https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/logo-4e073dbd4c0ce67ece1b30a6b31253b9.png)
+
 ~~~~
 sudo apt-get install atom
 ~~~~
