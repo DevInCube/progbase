@@ -7,12 +7,12 @@ sudo apt-get install atom
 ~~~~
 
 Разом із `atom` встановиться пакетний менеджер `apm` (Atom Package Manager), за допомогою якого потрібно встановити такі пакети через командний рядок:
-~~~~shell
+~~~~
 apm install linter linter-gcc
-~~~
+~~~~
 
 Після цього запустіть редактор:
-~~~~shell
+~~~~
 atom
 ~~~~
 
@@ -26,7 +26,7 @@ atom
 ~~~~
 
 та `Makefile`:
-~~~~Makefile
+~~~~
 CC=gcc
 CFLAGS=-c -std=c89 -Werror -Wall -pedantic-errors
 LDFLAGS=-lm -lprogbase
@@ -57,7 +57,7 @@ clean:
 #### Компіляція і запуск програм
 
 Перейдіть у директорію проекту у консолі і виконайте:
-~~~~shell
+~~~~
 make
 ~~~~
 
