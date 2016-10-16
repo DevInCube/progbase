@@ -17,7 +17,7 @@ atom
 ~~~~
 
 Створіть директорію проекту і відкрийте її у Atom. У цій директорії створіть текстовий файл `.gcc-flags.json`:
-~~~~json
+~~~~
 {
 	"execPath": "/usr/bin/gcc",
 	"gccDefaultCFlags": "-std=c89 -Wall -Werror -pedantic-errors",
