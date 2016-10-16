@@ -5,26 +5,26 @@ sudo apt-get install atom
 ~~~~
 
 Разом із `atom` встановиться пакетний менеджер `apm` (Atom Package Manager), за допомогою якого потрібно встановити такі пакети через командний рядок:
-~~~
-apm install linter linter-eslint linter-gcc
+~~~~shell
+apm install linter linter-gcc
 ~~~
 
-Запустіть програму:
-~~~~
+Після цього запустіть редактор:
+~~~~shell
 atom
 ~~~~
 
 Створіть директорію проекту і відкрийте її у Atom. У цій директорії створіть текстовий файл `.gcc-flags.json`:
-~~~json
+~~~~json
 {
 	"execPath": "/usr/bin/gcc",
 	"gccDefaultCFlags": "-std=c89 -Wall -Werror -pedantic-errors",
 	"gccSuppressWarnings": false
 }
-~~~
+~~~~
 
 та `Makefile`:
-~~~Makefile
+~~~~Makefile
 CC=gcc
 CFLAGS=-c -std=c89 -Werror -Wall -pedantic-errors
 LDFLAGS=-lm -lprogbase
@@ -42,7 +42,7 @@ $(EXECUTABLE): $(OBJECTS)
 
 clean:
 	rm *o
-~~~
+~~~~
 
 ### Перевірка коду мовою С
 
@@ -55,7 +55,7 @@ clean:
 #### Компіляція і запуск програм
 
 Перейдіть у директорію проекту у консолі і виконайте:
-~~~~
+~~~~shell
 make
 ~~~~
 
