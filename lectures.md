@@ -32,6 +32,7 @@
 -   [__Лекція 4__. Символи і строки](https://docs.google.com/document/d/1XTXErCCiWfwdkxrRGqSvir0XExS37M1b1iVlgqes550/edit?usp=sharing)
 -   [__Лекція 5__. Структури даних](https://docs.google.com/document/d/1lVKhSLSnSCNLz8c6AYkQDqGq9JvFadk8i1uYc2RWKLU/edit?usp=sharing)
 -   [__Лекція 6__. Функції](https://docs.google.com/document/d/1taRudyWhXwB_LcsSylt-ujQ_ocat3FcN2rJy-RPVLHU/edit?usp=sharing)
+-   [__Практика__. Обхід і трансформації квадратних матриць](https://docs.google.com/document/d/1_mX4buYe1NzUftZQyzQfr0xMJNFABi0Na-e4L1mXziA/edit?usp=sharing)
 
 #### Розділ 3. Додаткові можливості мови С
 
