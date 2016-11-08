@@ -12,5 +12,12 @@
      "deadline_time": "2016-10-17T08:00:00.000Z",
      "score": 7,
      "link": "/class/pb1/lab/lab2"
+  },
+  {
+     "task_id": "lab3",
+     "title": "Lab #3",
+     "deadline_time": "2016-12-17T08:00:00.000Z",
+     "score": 7,
+     "link": "/class/pb1/lab/lab3"
   }
 ]
