@@ -37,7 +37,7 @@ EXECUTABLE=a.out
 all: $(SOURCES) $(EXECUTABLE) clean
 
 $(EXECUTABLE): $(OBJECTS)
-	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
+	$(CC) $(OBJECTS) -o $@ $(LDFLAGS)
 
 .c.o:
 	$(CC) $(CFLAGS) $< -o $@
