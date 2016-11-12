@@ -20,7 +20,7 @@ atom
 ~~~~
 {
 	"execPath": "/usr/bin/gcc",
-	"gccDefaultCFlags": "-std=c89 -Wall -Werror -pedantic-errors",
+	"gccDefaultCFlags": "-c -std=c89 -Wall -Werror -pedantic-errors",
 	"gccSuppressWarnings": false
 }
 ~~~~
