@@ -63,6 +63,13 @@
      "link": "/class/pb1/task/files"
   },
   {
+     "task_id": "recursion",
+     "title": "Recursion",
+     "deadline_time": "2016-12-05T08:00:00.000Z",
+     "score": 2,
+     "link": "/class/pb1/task/recursion"
+  },
+  {
      "task_id": "extra_numeral_systems",
      "title": "[Extra] Numeral Systems Conversion Function",
      "deadline_time": "2016-09-26T08:00:00.000Z",
