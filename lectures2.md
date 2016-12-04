@@ -1,16 +1,25 @@
 [Практичні заняття](#)
 
-#### Розділ 3. Основи комп'ютерних наук
+#### Розділ 3. Модульне програмування
 
--   [__Лекція__. Інтерфейси, абстракція і інкапсуляція. Дизайн програмних інтерфейсів.](#)
--   [__Лекція__. Обробка помилок. Модульне тестування](#)
--   [__Лекція__. Статичні та динамічні бібліотеки.](#)
--   [__Лекція__. Callback-функції.](#)
--   [__Лекція__. Віконні програми Linux. GTK+](#)
--   [__Лекція__. Файлові формати зберігання даних: CSV, XML, JSON.](#)
--   [__Лекція__. Потоки і багатопоточність у мові С. Синхронізація потоків, примітиви синхронізації і критичні секції коду.](#)
--   [__Лекція__. Клієнт-серверна архітектура програм. Сокети, протоколи IP, TCP i UDP. ](#)
--   [__Лекція__. Сервісні програми (daemons).](#)
+-   [__Лекція__. Розділення коду на модулі. Абстракція, інтерфейси та інкапсуляція.][modules]
+-   [__Лекція__. Обробка помилок. Модульне тестування. Continuous Integration.][testing]
+-   [__Лекція__. Динамічні структури даних. Списки та дерева.][data_structs]
+-   [__Лекція__. Статичні та динамічні бібліотеки.][libs]
+-   [__Лекція__. Формати обміну даними: CSV, XML, JSON.][data_formats]
+
+#### Розділ 4. Об'єктно-орієнтоване та подійно-орієнтоване програмування
+
+-   [__Лекція__. Основи об'єктно-орієнтованого програмування. Класи і об'єкти. Glib.][oop]
+-   [__Лекція__. Вказівники на функції. Використання callback-функцій.][callbacks]
+-   [__Лекція__. Подійно-орієнтоване програмування.][events]
+-   [__Лекція__. Graphical user interface (GUI). Створення віконних програм для Linux. GTK+.][gui]
+
+#### Розділ 5. Процеси та потоки. Міжпроцесна взаємодія
+
+-   [__Лекція__. Потоки і багатопоточність у мові С. Синхронізація потоків, примітиви синхронізації і критичні секції коду.][threads]
+-   [__Лекція__. Клієнт-серверна архітектура програм. Сокети, протоколи IP, TCP i UDP.][networking]
+-   [__Лекція__. Сервісні програми Linux (daemons).][daemons]
 
 ### Література
 
@@ -19,3 +28,16 @@
 1.  [Ben Klemens - 21st Century C, 2013 [pdf]](http://file.allitebooks.com/20150510/21st%20Century%20C.pdf)
 1.  [Б. Керниган, Д. Ритчи - Язык программирования Си [pdf]](http://studrada.fpm.kpi.ua/archive/Kernigan,Pichi-C-programming.pdf)
 1.  [Charlez Petzold - Programming Windows, 2002 - 5th edition [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8fMjZEUk9SaXZnX00/view?usp=sharing)
+
+  [modules]: https://docs.google.com/document/d/12MQg2N-yg3B2yUxehXieScg_y1K6rnbM-igkm_qbG1o/edit#
+  [testing]: https://docs.google.com/document/d/1bBVm38PPY8b5iEE15Q0qFIJFusyhZzg25VdDczF9Ciw/edit?usp=sharing
+  [data_structs]: #
+  [libs]: https://docs.google.com/document/d/1ZZ7rSETmNjMRHt4URnsX0ExplG5zAziiIIrS7cncWbc/edit?usp=sharing
+  [data_formats]: https://docs.google.com/document/d/1KT30eqOkPcJgi680ibc3m4waZXaejT5W06zYKW6usEg/edit?usp=sharing
+  [oop]: #
+  [callbacks]: https://docs.google.com/document/d/1-8yfw06Md6pHm1v3GLgtbLiEcrmRAOZh3etQ_YKV-zU/edit?usp=sharing
+  [events]: #
+  [gui]: #
+  [threads]: https://docs.google.com/document/d/15YreOl5UPTw0syDZWzqy2Rk0v8gLfnxDmz9vNJsHZ3k/edit?usp=sharing
+  [networking]: https://docs.google.com/document/d/1Lm-2s3EyzOd7ynPMKzi53y3kbZ_UwagXfhWCp6dv4sw/edit?usp=sharing
+  [daemons]: #
