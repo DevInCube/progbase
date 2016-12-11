@@ -86,9 +86,16 @@
      "link": "/class/pb1/task/extra_morse"
   },
   {
+     "task_id": "extra_console_game",
+     "title": "[Extra] Console Game",
+     "deadline_time": "2016-12-19T08:00:00.000Z",
+     "score" : 5,
+     "link": "/class/pb1/task/extra_console_game"
+  },
+  {
      "task_id": "test_console_paint",
      "title": "[Test] Console Paint",
-     "deadline_time": "2016-09-26T08:00:00.000Z",
+     "deadline_time": "2016-12-19T08:00:00.000Z",
      "score": 3,
      "link": "/class/pb1/task/test_console_paint"
   },
