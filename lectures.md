@@ -43,7 +43,6 @@
 -   [__Лекція 3__. Стандартна бібліотека мови С. Робота із файлами в мові С. Робота із часовими типами даних [presentation]](https://docs.google.com/presentation/d/1fdtbAMbqdwGzmxjmXBZAXJGwgS7w32dpXZMmN1xrgGM/edit?usp=sharing)
 -   [__Лекція 3__. Стандартна бібліотека мови С. Робота із часовими типами даних](https://docs.google.com/document/d/1LrZVptW6VZFN944kjjqx5VCP1H5zGvJcgjTPbNQl9Sk/edit?usp=sharing)
 -   [__Лекція 4__. Робота із файлами в мові С](https://docs.google.com/document/d/1PbAH9_Iwva7zG72Qds-iTyMhjMxTpgkBic-xTRa4LYE/edit?usp=sharing)
-
 -   [__Додатково__. Стандарти С89 та С99](https://docs.google.com/document/d/1CrqE4jYhdI0sUMYmDgIoWP302_hJ-8zLEx2p_OKxpSo/edit?usp=sharing)
 -   [__Додатково__. Динамічне виділення пам'яті](https://docs.google.com/document/d/1ovwOnHQ65NE8qaKG_iOgvoQUhxxGsNTxgDAqo26vxS0/edit?usp=sharing)
 
