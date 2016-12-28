@@ -1,7 +1,5 @@
 [Практичні заняття](https://docs.google.com/document/d/1A4-CK2EEMZAbHu6mkFSG_aKASl-iDv8tIf2UF2bilD4/edit?usp=sharing)
 
-![prgbase](/media/progbase.png)
-
 #### Вступ
 
 -   [__Лекція 1__. Анатомія комп'ютерних програм](https://docs.google.com/document/d/1upRTun9e4kJffITZFq6NISOiKZhzQ_e2FCxrTMDmsnc/edit?usp=sharing)
