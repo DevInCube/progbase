@@ -32,19 +32,20 @@
 -   [__Лекція 4__. Символи і строки](https://docs.google.com/document/d/1XTXErCCiWfwdkxrRGqSvir0XExS37M1b1iVlgqes550/edit?usp=sharing)
 -   [__Лекція 5__. Структури даних](https://docs.google.com/document/d/1lVKhSLSnSCNLz8c6AYkQDqGq9JvFadk8i1uYc2RWKLU/edit?usp=sharing)
 -   [__Лекція 6__. Функції](https://docs.google.com/document/d/1taRudyWhXwB_LcsSylt-ujQ_ocat3FcN2rJy-RPVLHU/edit?usp=sharing)
+-   [__Лекція 7__. Стандарт С99. Стек викликів функцій. Рекурсія [presentation]](https://drive.google.com/open?id=15OFpk1z5RsHoTci4Oju2frIY02oOGXphjTXVkLVgI_Y) 
+-   [__Лекція 7__. Стек викликів функцій. Рекурсія](https://docs.google.com/document/d/1pl0YIU1rx3WcaX3mQT8aLKy1DVHHzuD5aWxnmVRnv5w/edit?usp=sharing)
 -   [__Практика__. Обхід і трансформації квадратних матриць](https://docs.google.com/document/d/1_mX4buYe1NzUftZQyzQfr0xMJNFABi0Na-e4L1mXziA/edit?usp=sharing)
 
 #### Розділ 3. Додаткові можливості мови С
 
--   [__Лекція 1__. Вказівники](https://docs.google.com/document/d/1GxvGRqBOryZ9Vvip5BQM1wKf0oDmexYuVexh8ALL2Wk/edit?usp=sharing)
--   [__Лекція 2__. Динамічне виділення пам'яті](https://docs.google.com/document/d/1ovwOnHQ65NE8qaKG_iOgvoQUhxxGsNTxgDAqo26vxS0/edit?usp=sharing)
+-   [__Лекція 1__. Заголовочні файли](https://docs.google.com/document/d/1Kx5-BskyxYzBAdcXmp516sVsuso14zLIcT3r2ngifVs/edit?usp=sharing)
+-   [__Лекція 2__. Вказівники](https://docs.google.com/document/d/1GxvGRqBOryZ9Vvip5BQM1wKf0oDmexYuVexh8ALL2Wk/edit?usp=sharing)
 -   [__Лекція 3__. Стандартна бібліотека мови С. Робота із файлами в мові С. Робота із часовими типами даних [presentation]](https://docs.google.com/presentation/d/1fdtbAMbqdwGzmxjmXBZAXJGwgS7w32dpXZMmN1xrgGM/edit?usp=sharing)
--   [__Лекція 3.1__. Заголовочні файли](https://docs.google.com/document/d/1Kx5-BskyxYzBAdcXmp516sVsuso14zLIcT3r2ngifVs/edit?usp=sharing)
--   [__Лекція 3.2__. Стандартна бібліотека мови С. Робота із часовими типами даних](https://docs.google.com/document/d/1LrZVptW6VZFN944kjjqx5VCP1H5zGvJcgjTPbNQl9Sk/edit?usp=sharing)
--   [__Лекція 3.3__. Робота із файлами в мові С](https://docs.google.com/document/d/1PbAH9_Iwva7zG72Qds-iTyMhjMxTpgkBic-xTRa4LYE/edit?usp=sharing)
--   [__Лекція 4__. Стандарт С99. Стек викликів функцій. Рекурсія [presentation]](https://drive.google.com/open?id=15OFpk1z5RsHoTci4Oju2frIY02oOGXphjTXVkLVgI_Y) 
--   [__Лекція 4.1__. Стандарти С89 та С99](https://docs.google.com/document/d/1CrqE4jYhdI0sUMYmDgIoWP302_hJ-8zLEx2p_OKxpSo/edit?usp=sharing)
--   [__Лекція 4.2__. Стек викликів функцій. Рекурсія](https://docs.google.com/document/d/1pl0YIU1rx3WcaX3mQT8aLKy1DVHHzuD5aWxnmVRnv5w/edit?usp=sharing)
+-   [__Лекція 3__. Стандартна бібліотека мови С. Робота із часовими типами даних](https://docs.google.com/document/d/1LrZVptW6VZFN944kjjqx5VCP1H5zGvJcgjTPbNQl9Sk/edit?usp=sharing)
+-   [__Лекція 4__. Робота із файлами в мові С](https://docs.google.com/document/d/1PbAH9_Iwva7zG72Qds-iTyMhjMxTpgkBic-xTRa4LYE/edit?usp=sharing)
+
+-   [__Додатково__. Стандарти С89 та С99](https://docs.google.com/document/d/1CrqE4jYhdI0sUMYmDgIoWP302_hJ-8zLEx2p_OKxpSo/edit?usp=sharing)
+-   [__Додатково__. Динамічне виділення пам'яті](https://docs.google.com/document/d/1ovwOnHQ65NE8qaKG_iOgvoQUhxxGsNTxgDAqo26vxS0/edit?usp=sharing)
 
 ### Література
 
