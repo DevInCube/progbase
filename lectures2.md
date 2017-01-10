@@ -3,15 +3,15 @@
 #### Розділ 3. Модульне програмування
 
 -   [__Лекція__. Розділення коду на модулі. Абстракція, інтерфейси та інкапсуляція.][modules]
+-   [__Лекція__. Динамічне управління пам'яттю. Динамічні структури даних.][data_structs]
 -   [__Лекція__. Обробка помилок. Модульне тестування. Continuous Integration.][testing]
--   [__Лекція__. Динамічні структури даних. Списки та дерева.][data_structs]
 -   [__Лекція__. Статичні та динамічні бібліотеки.][libs]
 -   [__Лекція__. Формати обміну даними: CSV, XML, JSON.][data_formats]
 
 #### Розділ 4. Об'єктно-орієнтоване та подійно-орієнтоване програмування
 
--   [__Лекція__. Основи об'єктно-орієнтованого програмування. Класи і об'єкти. Glib.][oop]
 -   [__Лекція__. Вказівники на функції. Використання callback-функцій.][callbacks]
+-   [__Лекція__. Основи об'єктно-орієнтованого програмування. Класи і об'єкти. Glib.][oop]
 -   [__Лекція__. Подійно-орієнтоване програмування.][events]
 -   [__Лекція__. Graphical user interface (GUI). Створення віконних програм для Linux. GTK+.][gui]
 
@@ -31,7 +31,7 @@
 
   [modules]: https://docs.google.com/document/d/12MQg2N-yg3B2yUxehXieScg_y1K6rnbM-igkm_qbG1o/edit#
   [testing]: https://docs.google.com/document/d/1bBVm38PPY8b5iEE15Q0qFIJFusyhZzg25VdDczF9Ciw/edit?usp=sharing
-  [data_structs]: #
+  [data_structs]: https://docs.google.com/document/d/1ovwOnHQ65NE8qaKG_iOgvoQUhxxGsNTxgDAqo26vxS0/edit?usp=sharing
   [libs]: https://docs.google.com/document/d/1ZZ7rSETmNjMRHt4URnsX0ExplG5zAziiIIrS7cncWbc/edit?usp=sharing
   [data_formats]: https://docs.google.com/document/d/1KT30eqOkPcJgi680ibc3m4waZXaejT5W06zYKW6usEg/edit?usp=sharing
   [oop]: #
