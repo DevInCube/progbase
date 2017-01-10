@@ -2,4 +2,4 @@
 
 - [Встановити і налаштувати Visual Studio Code][vscode] (рекомендовано) або СLion
 
-  [vscode]: https://progbase.herokuapp.com/help/vscode
+  [vscode]: https://progbase.herokuapp.com/help/ide/vscode
