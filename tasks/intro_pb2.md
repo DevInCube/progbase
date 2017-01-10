@@ -1,4 +1,5 @@
 ## Підготовка до курсу
 
-- Встановити і налаштувати Visual Studio Code (також підійде будь-яка інша IDE із підсвіткою помилок в коді та дебагером)
-- Встановити утиліту Valgrind
+- [Встановити і налаштувати Visual Studio Code][vscode] або СLion
+
+  [vscode]: https://progbase.herokuapp.com/help/vscode
