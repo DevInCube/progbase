@@ -48,15 +48,16 @@
 
 ### Література
 
-1.  [Б. Керниган, Д. Ритчи - Язык программирования Си
+*  [Б. Керниган, Д. Ритчи - Язык программирования Си
     [pdf]](http://studrada.fpm.kpi.ua/archive/Kernigan,Pichi-C-programming.pdf)
-2.  [Kernighan B., Ritchie D. - The C programming language
+*  [Kernighan B., Ritchie D. - The C programming language
     [pdf]](https://hassanolity.files.wordpress.com/2013/11/the_c_programming_language_2.pdf)
-3.  [Шилдт Г. - Полный справочник по C
-    [web]](http://lord-n.narod.ru/download/books/walla/programming/Spr_po_C/main.htm)
-4.  [The GNU C Reference Manual
+*  [The GNU C Reference Manual
     [web]](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
-5.  [Hartel P., Muller H. - Functional C, 1999
+*  [Стивен Прата - Язык программирования С. Лекции и упражнения [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8fLXVQRjZwQmRQdTA/view?usp=sharing)
+*  [K. N. King. - C Programming. A modern approach [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8fS0JncXUzVkVoTDg/view?usp=sharing)
+*  [Hartel P., Muller H. - Functional C, 1999
     [pdf]](http://eprints.eemcs.utwente.nl/1077/02/book.pdf)
-6.  [GeeksForGeeks C [web]](http://www.geeksforgeeks.org/c/)
+*  [GeeksForGeeks C [web]](http://www.geeksforgeeks.org/c/)
+*  Шилдт Г. - Полный справочник по C
 
