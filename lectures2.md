@@ -27,7 +27,6 @@
 1.  [Бен Клеменс - Язык С в XXI веке, 2015 - ISBN 978-5-97060-101-3 [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8feW5ZV29sd0ppNTg/view?usp=sharing)
 1.  [Ben Klemens - 21st Century C, 2013 [pdf]](http://file.allitebooks.com/20150510/21st%20Century%20C.pdf)
 1.  [Б. Керниган, Д. Ритчи - Язык программирования Си [pdf]](http://studrada.fpm.kpi.ua/archive/Kernigan,Pichi-C-programming.pdf)
-1.  [Charlez Petzold - Programming Windows, 2002 - 5th edition [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8fMjZEUk9SaXZnX00/view?usp=sharing)
 
   [modules]: https://docs.google.com/document/d/12MQg2N-yg3B2yUxehXieScg_y1K6rnbM-igkm_qbG1o/edit#
   [testing]: https://docs.google.com/document/d/1bBVm38PPY8b5iEE15Q0qFIJFusyhZzg25VdDczF9Ciw/edit?usp=sharing
