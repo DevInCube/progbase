@@ -1,17 +1,17 @@
-
-#### Розділ 1. Вступ
+#### Agile. Scrum
 
 - [Лекція 1. Моделі життєвого циклу ПЗ. Методології розробки ПЗ. Agile][models]
 - [Лекція 2. Agile. Методологія XP][agile]
-
-#### Розділ 2. Методологія Scrum
-
 - [Лекція 3. Scrum. Основні визначення][scrum]
 - [Лекція 4. Scrum. Беклог продукту і планування спринта][scrum-backlog]
 - [Лекція 5. Scrum. Ведення спринта][scrum-sprint]
 - [Лекція 6. Scrum. Демонстрація та ретроспектива][scrum-demo]
 
-#### Додатково
+#### Arduino
+
+- [Програмування на Arduino Uno][arduino-uno]
+
+#### Git
 
 - [Використання Git у командній розробці] [git-team]
 - [Управління гілками у Git] [git-branch]
@@ -24,6 +24,7 @@
 - [Ken Schwaber, Agile Project Management with Scrum. Microsoft Press., 2004, ISBN 978-0-7356-1993-7.][4]
 - [A Survey of Agile Development Methodologies][5]
 
+  [arduino-uno]: https://docs.google.com/document/d/17H5htTegK6TyX94-zfezOF47gK0z6ezXyu0hwhOmU_s/edit?usp=sharing
   [models]: https://docs.google.com/document/d/1A3TUqxnawDMib4efsMcg3GZo2NFH16u9zt20FqO-urs/edit?usp=sharing
   [agile]:  https://docs.google.com/document/d/1WywhdrMJnKD2ZnbVZ_d9iEJh9pCyjmPNK2u5jTr6g2c/edit?usp=sharing
   [scrum]:  https://docs.google.com/document/d/1xwSbxaTLM8vg8VteU2MWyODZA3VjGSdHAvn9QgzdgOk/edit?usp=sharing
