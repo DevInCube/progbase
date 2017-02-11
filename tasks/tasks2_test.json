@@ -1,2 +1,9 @@
 [
+  {
+     "task_id": "pb2_test",
+     "title": "PB-2 test",
+     "deadline_time": "2016-09-26T08:00:00.000Z",
+     "score": 2,
+     "link": "/class/pb2/task/pb2_test"
+  }
 ]
