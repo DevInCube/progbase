@@ -1,0 +1,106 @@
+<%
+    var variant = parseInt($var);
+    var groupnum = ($group && ($group.length > 1) && !isNaN(parseInt($group[1]))) ? parseInt($group[1]) : 0;
+    var n0 = parseInt($var[1]);
+    var n1 = parseInt($var[0]);
+    
+    var tasks1 = [
+        'символ з найменшим кодом у таблиці ASCII.',
+        'символ з найбільшим кодом у таблиці ASCII.',
+        'останній символ у верхньому регістрі, або символ ‘0’ якщо такого немає.',
+        'останній символ у нижньому регістрі, або символ ‘0’ якщо такого немає.',
+        'останній символ десяткової цифри, або символ ‘0’ якщо такого немає.',
+        'останній символ шістнадцяткової цифри, або символ ‘0’ якщо такого немає.',
+        'кількість голосних букв у строці.',
+        'кількість знаків пунктуації у строці.',
+        'кількість шістнадцяткових символів у строці.',
+        'кількість пустих символів у строці.',
+        'кількість приголосних букв у строці.',
+        'суму кодів першого і останнього непустих символів строки.',
+        'різницю кодів першого і останнього непустих символів строки.',
+        'суму значень, яким відповідають перший і останній десятковий цифровий символи строки.',
+        'різницю значень, яким відповідають перший і останній десятковий цифровий символи строки.',
+        'добуток значень, яким відповідають перший і останній десятковий цифровий символи строки.',
+        'менше зі значень, яким відповідають перший і останній шістнадцятковий цифровий символи строки.',
+        'більше зі значень, яким відповідають перший і останній шістнадцятковий цифровий символи строки.',
+        'якщо кількість відкриваючих круглих дужок у строці рівна кількості закриваючих круглих дужок - вивести 1, інакше 0.',
+        'якщо кількість десяткових цифр у строці більша 5 вивести 1 інакше - 0.',
+        'якщо кількість буквенних символів у строці більша 5 вивести 1 інакше - 0.',
+        'перший з символів, що повторюється більше 1 раза підряд, інакше 0.',
+        'останній з символів, що повторюється більше 1 раза підряд, інакше 0.',
+        'символ, що слідує за останнім символом ‘@’, якщо такого нема - вивести 0.',
+        'кількість цифрових і буквенних символів у строці.'
+    ];
+    var task1 = tasks1[variant % tasks1.length];
+%>
+
+### Dynamic Memory Management
+
+Виконати завдання з використанням **змінних тільки вказівникового типу** та функцій динамічного управління пам’яттю у кучі.
+
+#### Завдання
+
+Користувач вводить строку. 
+
+Вивести умову завдання і введену користувачем строку. 
+
+На основі введеної строки обчислити і вивести <%= task1 %>
+
+Вся виділена пам'ять перед закічненням роботи програми повинна бути звільнена.
+
+#### Приклад виконання
+
+Приклад виконання аналогічного завдання: знайти кількість голосних букв у строці
+
+~~~~c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+enum {
+    STRING_SIZE = 50
+};
+
+int main(void) {
+    /* pointers declaration */
+    char * inputStr     = NULL;
+    char * vowelCharPtr = NULL;                              /* just pointer to some char of inputStr memory */
+    char * vowels       = "eyuioaEYUIOA";                    /* const string, no need to allocate memory */
+    int  * count        = NULL;
+
+    /* memory allocation */
+    inputStr = (char *) malloc(STRING_SIZE * sizeof(char));  /* alloc memory for input string */
+    count    = (int  *) malloc( 1 * sizeof(int ));           /* alloc memory for one int counter of vowels */
+    if (NULL == inputStr || NULL == count){
+        printf("Alloc error");
+        return EXIT_FAILURE;
+    }
+
+    /* assignments */
+    *count = 0;                                              /* don't forget to init counter memory */
+    printf("Please, input string: ");
+    fgets(inputStr, STRING_SIZE, stdin);
+
+    /* algorithm */
+    vowelCharPtr = strpbrk(inputStr, vowels);                /* get first occurance of vowel char in inputStr */
+    while (NULL != vowelCharPtr) {                           /* if no vowels, vowelCharPtr would be NULL */
+        (*count) ++;                                         /* increment counter */
+        vowelCharPtr = strpbrk(vowelCharPtr + 1, vowels);    /* get next occurance of vowel char after this occurance */
+    }
+
+    /* print result */
+    printf("Number of vowels: %i", *count);
+
+    /* memory deallocation */
+    free(inputStr);          /* for malloc */
+    free(count);             /* for malloc */
+    /* free(vowels);       *//* no need to free this memory.  It points to constant memory of "eyuioaEYUIOA" string literal */
+    /* free(vowelCharPtr); *//* no need to free this pointer. It points to memory of inputStr pointer */
+
+    return EXIT_SUCCESS;
+}
+~~~~
+
+Матеріали:
+1. [Лекція. Вказівники](https://docs.google.com/document/d/1GxvGRqBOryZ9Vvip5BQM1wKf0oDmexYuVexh8ALL2Wk/edit?usp=sharing)
+1. [Лекція. Динамічне виділення пам'яті](https://docs.google.com/document/d/1ovwOnHQ65NE8qaKG_iOgvoQUhxxGsNTxgDAqo26vxS0/edit?usp=sharing)

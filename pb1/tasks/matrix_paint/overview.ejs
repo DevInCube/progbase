@@ -1,0 +1,101 @@
+### Matrix Console Paint
+
+#### Завдання 1. Палітра кольорів консолі
+
+Доповнити таблицю кодування кольорів із файлу [pbconsole.h](https://github.com/PublicHadyniak/libprogbase/blob/master/include/pbconsole.h), які починаються на `BG_` (16 штук) для того, щоби код вивів у консолі всі доступні кольори (зміни у коді потрібно робити на місці `@todo`):
+
+~~~~c
+#include <stdio.h>
+#include <progbase.h>
+#include <pbconsole.h>
+
+int main(void) {
+	/* colors encoding table */
+	const char colorsTable[16][2] = {
+		{'0', BG_BLACK},
+		/* @todo add other colors pairs here */
+		{'F', BG_INTENSITY_WHITE}
+	};
+	int colorsTableLength = sizeof(colorsTable) / sizeof(colorsTable[0]);
+	char colorsPalette[16] = { '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
+	int colorsPaletteLength = sizeof(colorsPalette) / sizeof(colorsPalette[0]);
+	int i = 0;
+	int colorPairIndex = 0;
+	conClear();
+	for (i = 0; i < colorsPaletteLength; i++)
+	{
+		char colorCode = '\0';
+		char color = '\0';
+		/* get current color code from colorsPalette */
+		colorCode = colorsPalette[i];
+		/* find corresponding color in table */
+		for (colorPairIndex = 0; colorPairIndex < colorsTableLength; colorPairIndex++) 
+		{
+			char colorPairCode = colorsTable[colorPairIndex][0];
+			char colorPairColor = colorsTable[colorPairIndex][1];
+			if (colorCode == colorPairCode) 
+			{
+				color = colorPairColor;
+				break;  /* we have found our color, break the loop */
+			}
+		}
+		/* print space with founded color background */
+		conSetAttr(color);
+		putchar(' ');
+	}
+	puts("");
+	conReset();
+	return 0;
+}
+~~~~
+
+#### Завдання 2. Вивід закодованого у матриці малюнку
+
+За допомогою таблиці кольорів і циклу із попереднього завдання вивести у консоль кольорове зображення закодоване у матриці кодів кольорів. 
+
+Код зображення як значення матриці мови С:
+~~~~c
+<%- $variant[0] %>
+~~~~
+
+Закодоване зображення (`28x28`):
+
+![Image](/app/webpaint-image/<%= $variant[1] %>?width=400&height=600)
+
+#### Завдання 3. Послідовність виводу зображення
+
+Після виводу кожної клітинки зображення із завдання 2 додати команду затримки виконання програми на близько 10-20 мілісекунд (для цього потрібно оновити `libprogbase` до версії `0.1.0` або вище).
+
+Приклад виводу значень у консоль із затримкою:
+~~~~c
+#include <stdio.h>
+#include <progbase.h>  /* to use sleepMillis() function */
+
+int main(void) {
+	int i = 0;
+	const unsigned long MILLIS = 200;
+	
+	for (i = 0; i < 100; i++) {
+		if (0 == i % 10) {
+			puts("");
+		}
+		printf("%i\t", i);
+		fflush(stdout);  /* to see output in time */
+		sleepMillis(MILLIS);  /* to make time delay */
+	}
+	puts("");
+	return 0;
+}
+~~~~
+
+Змінити порядок виводу елементів матриці зображення із завдання 2 на порядок, що описаний заданою схемою, використовуючи затримку виводу для наглядності:
+
+![Image](/app/svg/<%= $variant[2] %>)
+
+#### Завдання 4. Трансформація і вивід зображення
+
+<%= $variant[3] %>
+
+Всі трансформації виконувати над заданою матрицею без допоміжних масивів. 
+
+Вивести трансформовану матрицю як зображення (аналогічно із завданням №2).
