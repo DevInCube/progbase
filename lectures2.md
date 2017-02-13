@@ -1,4 +1,4 @@
-[Практичні заняття](#)
+[Практичні заняття (репозиторій прикладів)][samples]
 
 #### Розділ 3. Модульне програмування
 
@@ -28,6 +28,7 @@
 1.  [Ben Klemens - 21st Century C, 2013 [pdf]](http://file.allitebooks.com/20150510/21st%20Century%20C.pdf)
 1.  [Б. Керниган, Д. Ритчи - Язык программирования Си [pdf]](http://studrada.fpm.kpi.ua/archive/Kernigan,Pichi-C-programming.pdf)
 
+  [samples]: https://github.com/publichadyniak/progbase-samples
   [modules]: https://docs.google.com/document/d/12MQg2N-yg3B2yUxehXieScg_y1K6rnbM-igkm_qbG1o/edit#
   [testing]: https://docs.google.com/document/d/1bBVm38PPY8b5iEE15Q0qFIJFusyhZzg25VdDczF9Ciw/edit?usp=sharing
   [data_structs]: https://docs.google.com/document/d/1ovwOnHQ65NE8qaKG_iOgvoQUhxxGsNTxgDAqo26vxS0/edit?usp=sharing
