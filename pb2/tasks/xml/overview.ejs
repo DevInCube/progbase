@@ -32,20 +32,20 @@
 
 ### XML Data Format
 
-Створити новий тип даних для сутності '<%= task %>'. 
+Створити новий тип даних для сутності `<%= task %>`. 
 
 Цей тип даних, окрім своїх властивостей (мінімум 3 поля, строкове, цілочисельне і дробове), повинен містити масив інших сутностей.
-Наприклад, сутність Студент містить масив Академічних Предметів (кожен елемент - строка назви предмету).
+Наприклад, сутність `Студент` містить масив `Академічних Предметів` (кожен елемент - строка назви предмету).
 
 Реалізувати список для зберігання елементів типу заданої сутності.
 
-Створити модуль __XmlLoader__ із функціями (замість TEntity підставте назву типу заданої сутності):
+Створити модуль `XmlLoader` із функціями (замість `TEntity` підставте назву типу заданої сутності):
 
 ```
 void XmlLoader_saveToString(char * str, const TEntity * entity);  // 1
-void XmlLoader_loadFromString(TEntity * entity, const char * xmlString);  // 2
-void XmlLoader_saveListToString(char * str, const TEntityList * entityList);  // 3
-void XmlLoader_loadListFromString(TEntityList * entityList, const char * xmlString);  // 4
+void XmlLoader_loadFromString(TEntity * entity, const char * xmlStr);  // 2
+void XmlLoader_saveListToString(char * str, const TEntityList * entities);  // 3
+void XmlLoader_loadListFromString(TEntityList * entites, const char * xmlStr);  // 4
 ```
 
 Функція 1 через вказівник на сутність зберігає її вміст у строку у форматі XML (при цьому потрібно використати хоча б один XML-атрибут).
