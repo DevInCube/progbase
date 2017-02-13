@@ -11,7 +11,7 @@
 #### Розділ 4. Об'єктно-орієнтоване та подійно-орієнтоване програмування
 
 -   [__Лекція__. Вказівники на функції. Використання callback-функцій.][callbacks]
--   [__Лекція__. Основи об'єктно-орієнтованого програмування. Класи і об'єкти. Glib.][oop]
+-   [__Лекція__. Основи об'єктно-орієнтованого програмування. Класи і об'єкти. Glib і C++.][oop]
 -   [__Лекція__. Подійно-орієнтоване програмування.][events]
 -   [__Лекція__. Graphical user interface (GUI). Створення віконних програм для Linux. GTK+.][gui]
 
@@ -33,8 +33,8 @@
   [data_structs]: https://docs.google.com/document/d/1ovwOnHQ65NE8qaKG_iOgvoQUhxxGsNTxgDAqo26vxS0/edit?usp=sharing
   [libs]: https://docs.google.com/document/d/1ZZ7rSETmNjMRHt4URnsX0ExplG5zAziiIIrS7cncWbc/edit?usp=sharing
   [data_formats]: https://docs.google.com/document/d/1KT30eqOkPcJgi680ibc3m4waZXaejT5W06zYKW6usEg/edit?usp=sharing
-  [oop]: #
   [callbacks]: https://docs.google.com/document/d/1-8yfw06Md6pHm1v3GLgtbLiEcrmRAOZh3etQ_YKV-zU/edit?usp=sharing
+  [oop]: https://docs.google.com/document/d/1Jq4hZeAM7aXj_Bvb50P9qu0KPZcHLVbj_egefPQ1sBo/edit?usp=sharing
   [events]: #
   [gui]: #
   [threads]: https://docs.google.com/document/d/15YreOl5UPTw0syDZWzqy2Rk0v8gLfnxDmz9vNJsHZ3k/edit?usp=sharing
