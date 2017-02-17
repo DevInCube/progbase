@@ -1,2 +1,9 @@
 [
+  {
+     "task_id": "lab1",
+     "title": "Лабораторна робота №1",
+     "deadline_time": "2017-02-25T18:00:00.000Z",
+     "score": 5,
+     "link": "/class/gd/lab/lab1"
+  },
 ]
