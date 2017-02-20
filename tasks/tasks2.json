@@ -28,11 +28,11 @@
      "link": "/class/pb2/task/callback"
   },
   {
-     "task_id": "extra_ci",
+     "task_id": "ci",
      "extra": true,
      "title": "[Extra] Continuous Integration",
      "deadline_time": "2017-03-06T08:00:00.000Z",
      "score": 5,
-     "link": "/class/pb2/task/extra_ci"
+     "link": "/class/pb2/task/ci"
   }
 ]
