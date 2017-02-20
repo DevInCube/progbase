@@ -26,5 +26,12 @@
      "deadline_time": "2017-03-13T08:00:00.000Z",
      "score": 3,
      "link": "/class/pb2/task/callback"
+  },
+  {
+     "task_id": "extra_ci",
+     "title": "[Extra] Continuous Integration",
+     "deadline_time": "2017-03-06T08:00:00.000Z",
+     "score": 5,
+     "link": "/class/pb2/task/extra_ci"
   }
 ]
