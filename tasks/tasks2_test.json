@@ -1,6 +1,7 @@
 [
   {
      "task_id": "pb2_test",
+     "extra": true,
      "title": "PB-2 test",
      "deadline_time": "2016-09-26T08:00:00.000Z",
      "score": 2,
