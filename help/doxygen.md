@@ -1,7 +1,7 @@
 ## Doxygen
 
 ~~~
-sudo apt-get install doxygen graphvis
+sudo apt-get install doxygen graphviz
 ~~~
 
 Згенерувати файл із конфігурацією (Doxyfile):
