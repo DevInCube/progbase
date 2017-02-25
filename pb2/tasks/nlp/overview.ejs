@@ -56,9 +56,74 @@ typedef struct Word Word;
 1. Описати інтерфейси для списків слів і речень.
 1. Описати структури та деякі допоміжні функції для типів Text, Sentence, Word відповідно до завдання 
 (наприклад, перевірку чи слово є стоп-словом).
-1. Описати модуль для зчитування тексту за файлу і запису результату у файл.
-1. Описати функцію для виконання обробки тексту за завданням.
+1. Описати модуль для зчитування тексту з файлу і запису результату у файл.
+1. Описати функцію для виконання обробки тексту за завданням у тому ж файлі, що і main().
 1. Об'єднати виклики функцій з модулів у main().
+
+#### Замітки №2
+
+Для того, щоби в користувацькому кожі відв'язатися від реалізації типів даних, сховайте описи структур у файл `nlp.c`:
+
+```
+/* nlp.h */
+typedef struct Text Text;
+typedef struct Sentence Sentence;
+typedef struct Word Word;
+...
+void Text_addSentence(Text * self, Sentence * sentence);
+int Text_countSentences(Text * self);
+Sentence * Text_getSentence(Text * self, int sentenceIndex);
+...
+void Sentence_addWord(Sentence * self, Word * sentence);
+int Sentence_countWords(Sentence * self);
+Word * Sentence_getWord(Sentence * self, int wordIndex);
+...
+bool Word_isStopWord(Word * self);
+const char * Word_getString(Word * self);
+...
+/* nlp.c */
+
+struct Text { /* implementation */ };
+struct Sentence { /* implementation */ };
+struct Word { /* implementation */ };
+...
+```
+
+Приклад інтерфейса модуля роботи із файлом:
+
+```
+/* storage.h */
+#include <nlp.h>
+
+Text * Storage_readText(const char * filePath);
+void Storage_writeResult(const char * filePath, /* result type here */ result);
+```
+
+Функцію за варіантом опишіть у `main.c`, наприклад:
+
+```
+#include <nlp.h>
+#include <storage.h>
+
+/* result type */ processText(Text * text, /* some aditional params here */);
+
+int main(void) {
+   Text * text = Storage_readText("text.txt");
+   /* result type */ result = processText(text, /* some args here */);
+   Storage_write(result);
+   //
+   // free result here
+   //
+   Text_free(&text);
+   return 0;
+}
+
+/* result type */ processText(Text * text, /* some aditional params here */) {
+    /* process text here */
+    ... 
+}
+
+```
 
 Матеріали:
 
