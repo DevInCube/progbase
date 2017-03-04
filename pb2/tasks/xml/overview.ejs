@@ -44,17 +44,8 @@
 ```
 void XmlLoader_saveToString(char * str, const TEntity * entity);  // 1
 void XmlLoader_loadFromString(TEntity * entity, const char * xmlStr);  // 2
-void XmlLoader_saveListToString(char * str, const TEntityList * entities);  // 3
-void XmlLoader_loadListFromString(TEntityList * entites, const char * xmlStr);  // 4
 ```
 
 Функція 1 через вказівник на сутність зберігає її вміст у строку у форматі XML (при цьому потрібно використати хоча б один XML-атрибут).
 
 Функція 2 зі строки із XML вмістом заповнює поля сутності через вказівник на неї.
-
-Функція 3 аналогічна функції 1, але зберігає не одну, а список сутностей.
-
-Функція 4 аналогічна функції 2, але вона створює і заповнює нові елементи списку сутностей.
-
-Описати модульні тести для перевірки функцій 1 та 2.
-
