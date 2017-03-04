@@ -16,6 +16,8 @@
 
 ### [Extra] Continuous Integration
 
+#### Завдання 1. Статична бібліотека та модульні тести
+
 Створити модуль для організації університетських даних, що містить типи:
 
 * Студент
@@ -33,13 +35,52 @@
 
 Оформити модуль у вигляді статичної бібліотеки і опублікувати код у GitHub репозиторії.
 
-Додати у репозиторій безперервну інтеграцію за допомогою [Travis CI][ci], яка запускатиме описані модульні тести 
-(підтримку Check можна додати [так][ci-apt]).
+#### Завдання 2. Налаштування безперервної інтеграції за допомогою Travis CI
 
-У `README.md` репозиторію додати лейбл зі статусом збірки бібліотеки ([приклад][ci-sample]) 
-та лейбл [Codecov][codecov] для відображення міри покриття коду тестами ([приклад][cov-sample]).
+Конфігурація [Travis CI][ci] (файл `.travis.yml`) повинна:
 
-У папку завдання навчального репозиторія додати файл `link.txt` із посиланням на репозиторій GiHub.
+1. Збирати статичну бібліотеку і тестову програму та запускати тестову програму із описаними модульними тестами (`Success || Failure`).
+1. Визначати процент покриття коду тестами (`0-100%`).
+
+Для цього потрібно спочатку 
+
+Для визначення проценту покриття коду тестами потрібно:
+
+1. Додати у налаштування `.travis.yml` додати встановлення бібліотеки __check__ та __lcov__:
+
+    ```
+    before_install:
+      - sudo apt-get install check lcov
+    ```
+  
+1. Додати файл [`CodeCoverage.cmake`][codecov-module] 
+до директорії `scripts/cmake/` проекту
+1. Включити опцію тестування і додати конфігурації тестування у файлі `CMakeLists.txt` 
+(після налаштування збірки тестової програми, повний файл налаштування [тут][cmakelists]):
+
+	```
+	#
+	# Create make test
+	#
+	enable_testing()
+	add_test(unit-tests ${CMAKE_PROJECT_NAME})
+
+	## Coverage
+	set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/scripts/cmake)
+	include(CodeCoverage)
+	setup_target_for_coverage(${CMAKE_PROJECT_NAME}_coverage ${CMAKE_PROJECT_NAME} coverage)
+	SET(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
+	SET(CMAKE_C_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
+	```
+
+У `README.md` репозиторію додати:
+
+* бейдж Travis-CI зі статусом збірки бібліотеки: [![Build Status](https://travis-ci.org/PublicHadyniak/travis-ci-sample.svg?branch=master)](https://travis-ci.org/PublicHadyniak/travis-ci-sample)
+* бейдж [Codecov][codecov] для відображення міри покриття коду тестами: ![codecov-badge](https://codecov.io/gh/PublicHadyniak/Travis-ci-sample/branch/master/graph/badge.svg)
+
+Репозиторій з прикладом: [travis-ci-sample](https://github.com/PublicHadyniak/travis-ci-sample)
+
+У папку завдання навчального репозиторія додати файл `link.txt` із посиланням на репозиторій GitHub.
 
 
 Матеріали:
@@ -52,4 +93,6 @@
   [codecov]: https://codecov.io/
   [cov-sample]: https://github.com/ReactiveX/RxJava
   [ci-apt]: https://docs.travis-ci.com/user/customizing-the-build/#Installing-Packages-Using-apt
+  [codecov-module]: https://github.com/bilke/cmake-modules/blob/master/CodeCoverage.cmake
+  [cmakelists]: https://github.com/PublicHadyniak/travis-ci-sample/blob/master/CMakeLists.txt
 
