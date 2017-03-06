@@ -1,0 +1,14 @@
+<%
+  var tasks = [
+    `Нажаття на кнопку [Enter] стартує таймер на 5 секунд. Нажаття пробілу може призупинити/відновити відлік таймеру. Кнопка [Esc] відміняє таймер.`
+  ];
+  var task = tasks[parseInt($var) % tasks.length];
+%>
+
+### Event-Driven Programming
+
+На основі [реалізації системи подій][event-system-src] реалізувати подійно-орієнтовану програму за варіантом: <%= task %>. 
+
+Забороняється використання глобальних та статичних змінних.
+
+  [event-system-src]: https://github.com/PublicHadyniak/progbase-samples/tree/master/practices/eventloop
