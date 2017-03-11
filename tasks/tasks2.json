@@ -23,9 +23,17 @@
   {
      "task_id": "callback",
      "title": "Callback Functions",
-     "deadline_time": "2017-03-13T08:00:00.000Z",
+     "deadline_time": "2017-03-20T08:00:00.000Z",
      "score": 3,
      "link": "/class/pb2/task/callback"
+  },
+  {
+     "task_id": "events",
+     "extra" : false,
+     "title": "Event System",
+     "deadline_time": "2017-03-20T08:00:00.000Z",
+     "score": 3,
+     "link": "/class/pb2/task/events"
   },
   {
      "task_id": "ci",
