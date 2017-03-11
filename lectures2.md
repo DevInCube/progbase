@@ -11,8 +11,8 @@
 #### Розділ 4. Об'єктно-орієнтоване та подійно-орієнтоване програмування
 
 -   [__Лекція__. Вказівники на функції. Використання callback-функцій.][callbacks]
--   [__Лекція__. Основи об'єктно-орієнтованого програмування. Класи і об'єкти. Glib і C++.][oop]
 -   [__Лекція__. Подійно-орієнтоване програмування.][events]
+-   [__Лекція__. Основи об'єктно-орієнтованого програмування. Класи і об'єкти. Glib і C++.][oop]
 -   [__Лекція__. Graphical user interface (GUI). Створення віконних програм для Linux. GTK+.][gui]
 
 #### Розділ 5. Процеси та потоки. Міжпроцесна та мережева взаємодія
@@ -36,7 +36,7 @@
   [data_formats]: https://docs.google.com/document/d/1KT30eqOkPcJgi680ibc3m4waZXaejT5W06zYKW6usEg/edit?usp=sharing
   [callbacks]: https://docs.google.com/document/d/1-8yfw06Md6pHm1v3GLgtbLiEcrmRAOZh3etQ_YKV-zU/edit?usp=sharing
   [oop]: https://docs.google.com/document/d/1Jq4hZeAM7aXj_Bvb50P9qu0KPZcHLVbj_egefPQ1sBo/edit?usp=sharing
-  [events]: #
+  [events]: https://docs.google.com/document/d/1Hg5nt4DAp9WtC8AvtW3bmf6MhLCiCPnxhg0k5EuQiGQ/edit?usp=sharing
   [gui]: #
   [threads]: https://docs.google.com/document/d/15YreOl5UPTw0syDZWzqy2Rk0v8gLfnxDmz9vNJsHZ3k/edit?usp=sharing
   [networking]: https://docs.google.com/document/d/1Lm-2s3EyzOd7ynPMKzi53y3kbZ_UwagXfhWCp6dv4sw/edit?usp=sharing
