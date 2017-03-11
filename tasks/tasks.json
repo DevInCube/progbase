@@ -71,6 +71,7 @@
   },
   {
      "task_id": "extra_numeral_systems",
+     "extra": true,
      "title": "[Extra] Numeral Systems Conversion Function",
      "deadline_time": "2016-09-26T08:00:00.000Z",
      "score" : 5,
@@ -78,6 +79,7 @@
   },
   {
      "task_id": "extra_morse",
+     "extra": true,
      "title": "[Extra] Morse Signal Encoding And Decoding",
      "deadline_time": "2016-10-10T08:00:00.000Z",
      "score" : 5,
@@ -85,6 +87,7 @@
   },
   {
      "task_id": "extra_console_game",
+     "extra": true,
      "title": "[Extra] Console Game",
      "deadline_time": "2016-12-19T08:00:00.000Z",
      "score" : 5,
