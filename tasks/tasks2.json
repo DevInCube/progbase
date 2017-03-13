@@ -42,5 +42,13 @@
      "deadline_time": "2017-03-06T08:00:00.000Z",
      "score": 5,
      "link": "/class/pb2/task/ci"
+  },
+  {
+     "task_id": "edd_xml_java",
+     "extra": true,
+     "title": "Event-Driven Development, XML and Java",
+     "deadline_time": "2017-03-20T08:00:00.000Z",
+     "score": 5,
+     "link": "/class/pb2/task/edd_xml_java"
   }
 ]
