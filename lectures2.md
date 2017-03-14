@@ -13,7 +13,11 @@
 -   [__Лекція__. Вказівники на функції. Використання callback-функцій.][callbacks]
 -   [__Лекція__. Подійно-орієнтоване програмування.][events]
 -   [__Лекція__. Основи об'єктно-орієнтованого програмування. Класи і об'єкти. Glib і C++.][oop]
--   [__Лекція__. Graphical user interface (GUI). Створення віконних програм для Linux. GTK+.][gui]
+-   [__Лекція__. Введення у мову програмування C++. Відмінності від мови C.][cpp1]
+-   [__Лекція__. Об’єктно-орієнтоване програмування на С++.][cpp2]
+-   [__Лекція__. Об’єктно-орієнтована бібліотека класів C++.][cpp3]
+-   [__Лекція__. Наслідування у С++.][cpp4]
+-   [__Лекція__. Graphical user interface (GUI). Створення віконних програм для Linux. Qt C++.][gui]
 
 #### Розділ 5. Процеси та потоки. Міжпроцесна та мережева взаємодія
 
@@ -41,3 +45,7 @@
   [threads]: https://docs.google.com/document/d/15YreOl5UPTw0syDZWzqy2Rk0v8gLfnxDmz9vNJsHZ3k/edit?usp=sharing
   [networking]: https://docs.google.com/document/d/1Lm-2s3EyzOd7ynPMKzi53y3kbZ_UwagXfhWCp6dv4sw/edit?usp=sharing
   [daemons]: #
+  [cpp1]: https://docs.google.com/document/d/1k-u5j_5zpMB8bV0k51wImwWoJvChu46JL6gEFDI0l2w/edit?usp=sharing
+  [cpp2]: https://docs.google.com/document/d/18uJTTdvPfSDXoOko0vv6w_OWUXITi41PdcybDSKlvxY/edit?usp=sharing
+  [cpp3]: https://docs.google.com/document/d/13Fl1TRaBmsGamR0XzPf00_d9FRd2Q3qhdMqvdjcnLbc/edit?usp=sharing
+  [cpp4]: https://docs.google.com/document/d/1-RtzXu4e4yDVmOGJBfsN7Xuoz9bt0DtxfJd2yKfVVs0/edit?usp=sharing
