@@ -7,6 +7,13 @@
 - [Лекція 5. Scrum. Ведення спринта][scrum-sprint]
 - [Лекція 6. Scrum. Демонстрація та ретроспектива][scrum-demo]
 
+#### Презентації
+
+- [1. Моделі, методології. Agile](https://docs.google.com/presentation/d/15Hw1CLjKXPVLNgqqf-JMovqajocDniuPWr8ANL7PRnM/edit?usp=sharing)
+- [2. Основи Scrum](https://docs.google.com/presentation/d/1sEZEKbAEtMp8sd5VzCBk8OfTuBkcnBV0X-LyCDef9zE/edit?usp=sharing)
+- [3. Планування](https://docs.google.com/presentation/d/1fpQzWrs79liB87vzo7t1YxmZch6TmYLjxxjfbGVZUlI/edit?usp=sharing)
+- [4. Проведення та демонстрація](https://docs.google.com/presentation/d/1cw3mV9nDLnl5gcxqawrrGwJk6uzzJ8qdj7svhdJY4gU/edit?usp=sharing)
+
 #### Arduino
 
 - [Програмування на Arduino Uno][arduino-uno]
