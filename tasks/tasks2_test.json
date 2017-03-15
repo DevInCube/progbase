@@ -55,6 +55,14 @@
      "link": "/class/pb2/task/cpp"
   },
   {
+     "task_id": "qt_windows",
+     "extra" : false,
+     "title": "Qt Windows",
+     "deadline_time": "2017-03-27T08:00:00.000Z",
+     "score": 3,
+     "link": "/class/pb2/task/qt_windows"
+  },
+  {
      "task_id": "edd_xml_java",
      "extra" : true,
      "title": "edd_xml_java",
