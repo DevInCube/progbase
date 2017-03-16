@@ -41,7 +41,7 @@
   [callbacks]: https://docs.google.com/document/d/1-8yfw06Md6pHm1v3GLgtbLiEcrmRAOZh3etQ_YKV-zU/edit?usp=sharing
   [oop]: https://docs.google.com/document/d/1Jq4hZeAM7aXj_Bvb50P9qu0KPZcHLVbj_egefPQ1sBo/edit?usp=sharing
   [events]: https://docs.google.com/document/d/1Hg5nt4DAp9WtC8AvtW3bmf6MhLCiCPnxhg0k5EuQiGQ/edit?usp=sharing
-  [gui]: #
+  [gui]: https://docs.google.com/document/d/1CB5jHlYMSSo7IilO98m28cvhbSpt5N-LxC0DZ2T-SRc/edit?usp=sharing
   [threads]: https://docs.google.com/document/d/15YreOl5UPTw0syDZWzqy2Rk0v8gLfnxDmz9vNJsHZ3k/edit?usp=sharing
   [networking]: https://docs.google.com/document/d/1Lm-2s3EyzOd7ynPMKzi53y3kbZ_UwagXfhWCp6dv4sw/edit?usp=sharing
   [daemons]: #
