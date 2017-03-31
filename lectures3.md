@@ -1,5 +1,7 @@
 __[Методичні вказівки до виконання курсової роботи][methoda]__
 
+[Приклад Технічного Завдання (ТЗ)][tz]
+
 ## Матеріали
 
 ### Комп’ютерні ігри
@@ -19,6 +21,7 @@ __[Методичні вказівки до виконання курсової 
 - [Разработка игр - Типичный программист][tproger-gamedev]
 
   [methoda]: https://docs.google.com/document/d/1JFmToRZfxH76DGUdoLnk6xXjUXCbdAGKtnnwJR6wepE/edit?usp=sharing
+  [tz]: https://docs.google.com/document/d/18tph0d_HUX5GY9OBMW2o8qUGl2kaISbOk4gK06wQsnE/edit?usp=sharing
   [game-templates]: https://docs.google.com/document/d/1Z1xOXHwy4QgVkuHul56S2U3cKLJTumkLoLTSc5tWfZY/edit?usp=sharing 
   [game-camera]: https://docs.google.com/document/d/1VQ7PxNFLE7dEboe1QPrTty9Blgo_ttnPpK7WSTRlbwc/edit?usp=sharing
   [databases]: https://docs.google.com/document/d/1OnE0b5nQTlwPfRgF0ygtyo2JGs6C6C0e1m2HMBTn7yk/edit?usp=sharing 
