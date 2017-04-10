@@ -52,6 +52,14 @@
      "link": "/class/pb2/task/qt_windows"
   },
   {
+     "task_id": "udp",
+     "extra" : false,
+     "title": "Networking. UDP",
+     "deadline_time": "2017-04-17T08:00:00.000Z",
+     "score": 3,
+     "link": "/class/pb2/task/udp"
+  },
+  {
      "task_id": "ci",
      "extra": true,
      "title": "Continuous Integration",
