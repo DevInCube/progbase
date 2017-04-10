@@ -94,7 +94,7 @@ int main(void) {
     //
     // create UDP client
     UdpClient * server = UdpClient_init(&(UdpClient){});
-    IpAddress * serverAddress = IpAddress_init("127.0.0.1", 9999);
+    IpAddress * serverAddress = IpAddress_init(&(IpAddress){}, "127.0.0.1", 9999);
     NetMessage * message = NetMessage_init(
         &(NetMessage){},  // value on stack
         (char[BUFFER_LEN]){},  // array on stack 
