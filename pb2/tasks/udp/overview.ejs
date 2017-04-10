@@ -93,7 +93,7 @@ int main(void) {
 int main(void) {
     //
     // create UDP client
-    UdpClient * server = UdpClient_init(&(UdpClient){});
+    UdpClient * client = UdpClient_init(&(UdpClient){});
     IpAddress * serverAddress = IpAddress_init(&(IpAddress){}, "127.0.0.1", 9999);
     NetMessage * message = NetMessage_init(
         &(NetMessage){},  // value on stack
@@ -107,10 +107,10 @@ int main(void) {
         
         //
         // send request to server
-        UdpClient_sendTo(server, message, serverAddress);
+        UdpClient_sendTo(client, message, serverAddress);
         //
         // blocking call to receive response data from server
-        UdpClient_receiveFrom(server, message, serverAddress);
+        UdpClient_receiveFrom(client, message, serverAddress);
         printf("Received message from server (%d bytes): `%s`\n",
             NetMessage_dataLength(message),
             NetMessage_data(message));
