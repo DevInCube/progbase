@@ -71,6 +71,14 @@
      "link": "/class/pb2/task/udp"
   },
   {
+     "task_id": "tcp_client",
+     "extra" : false,
+     "title": "Networking. TCP",
+     "deadline_time": "2017-04-27T08:00:00.000Z",
+     "score": 3,
+     "link": "/class/pb2/task/tcp_client"
+  },
+  {
      "task_id": "edd_xml_java",
      "extra" : true,
      "title": "edd_xml_java",
