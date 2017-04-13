@@ -1,18 +1,59 @@
 <%
+  var variant = parseInt($var);
+  var groupnum = ($group && ($group.length > 1) && !isNaN(parseInt($group[1]))) ? parseInt($group[1]) : 0;
+  var n0 = parseInt($var[1]);
+  var n1 = parseInt($var[0]);
+    
+  //
   // https://shkspr.mobi/blog/2016/05/easy-apis-without-authentication/
   // public JSON API's
   var endpoints = [
-    [`Pokemon`, `http://pokeapi.co/`],
-    [`StarWars`, `https://swapi.co/`],
-    [`Countries`, `https://country.register.gov.uk/records.json`],
-    [`Countries`, `https://country.register.gov.uk/records.json`],
-    [`Films`, `https://ghibliapi.herokuapp.com/films/`],
-    [`Sunrise-sunset`, `https://sunrise-sunset.org/api`],
-    [`Game of Thrones`, `https://anapioficeandfire.com/`],
-    [`BBC Radio`, `http://www.bbc.co.uk/radio1/playlist.json`],
-    [`Google Maps`, `https://maps.googleapis.com/maps/api/geocode/json?address=Kiev`],
-    [`Wikipedia`, `https://en.wikipedia.org/w/api.php?action=query&titles=Albert_Einstein&prop=images&format=json`],
-    [`Github`, `https://developer.github.com/v3/`]
+    [`Pokemon`, `http://pokeapi.co/`, `@todo`, `@todo`],
+    [`StarWars`, `https://swapi.co/`, `@todo`, `@todo`],
+    [`Game of Thrones`, `https://anapioficeandfire.com/`, `@todo`, `@todo`],
+    [`Films`, `https://ghibliapi.herokuapp.com/films/`, `@todo`, `@todo`],
+    [`Wikipedia`, `https://en.wikipedia.org/w/api.php?action=query&titles=Albert_Einstein&prop=images&format=json`, `@todo`, `@todo`],
+    [`Google Maps`, `https://maps.googleapis.com/maps/api/geocode/json?address=Kiev`, `@todo`, `@todo`],
+    [`Countries`, `https://country.register.gov.uk/records.json`, `@todo`, `@todo`],
+    [`Sunrise-sunset`, `https://sunrise-sunset.org/api`, `@todo`, `@todo`],
+    [`Postcodes`, `http://postcodes.io/`, `@todo`, `@todo`],
+    [`Github`, `https://developer.github.com/v3/`, `@todo`, `@todo`],
+    [`BBC Radio`, `http://www.bbc.co.uk/radio1/playlist.json`, `@todo`, `@todo`]
   ];
-
+  
+  var task = endpoints[variant % endpoints.length];
 %>
+
+## TCP клієнт та публічні Web API
+
+#### Мета:
+
+Навчитися користуватись публічними API сайтів у мережі інтернет за допомогою TCP клієнта та парсерів форматів даних.
+
+#### Завдання №1. TCP-клієнт
+
+Реалізувати модуль, що використовує TCP клієнт для підключення до [тестового сервера][test-api]. 
+Тестовий сервер повертає у відповідь строку у форматі JSON. Забезпечити отримання повної строки.
+
+Для виконання HTTP GET запиту на отримання цих даних через TCP потрібно:
+
+1. Виконати підключення TCP клієнта до сервера із хост-іменем `api.github.com` (потрібно програмно отримати IP-адресу сервера) на порт `80`.
+1. Після успішного з'єднання сформувати строку HTTP GET запиту виду: `GET %s HTTP/1.0\r\nHost: %s\r\n\r\n`, де замість першого параметру форматування задати частину URL, що розташована за хост-іменем (наприклад, `/`), а замість другого параметру - хост-ім'я сайту (наприклад, `api.github.com`).
+1. Відправити сформовану строку на сервер і отримувати відповідь доки розмір отриманих у відповідь байт не буде `0`. Всі частини відповіді об'єднати у одну строку і звірити її із результатом, який відображається при переході на сайт у браузері.
+
+#### Завдання №2. Отримання та парсинг даних з API
+
+Дано публічний [API <%= task[0] %>](<%= task[1] %>) за URI `<%= task[1] %>`.
+Виконуючи HTTP GET запити по різних шляхах даного сайту можна отримувати у відповідь дані у строці формату JSON.
+Використовуючи класи платформи Qt для роботи із JSON розпарсити отриману строку у JSON-дерево та <%= task[2] %>.
+
+#### Завдання №3. Відображення даних у віконних програмах
+
+Створити віконну програму Qt, що <%= task[3] %>.
+
+#### Матеріали:
+
+1. [Лекція. Клієнт-серверна архітектура програм. Сокети, протоколи IP, TCP i UDP.][lec-1]
+
+[test-api]: https://api.github.com/
+[lec-1]: https://docs.google.com/document/d/1Lm-2s3EyzOd7ynPMKzi53y3kbZ_UwagXfhWCp6dv4sw/edit?usp=sharing
