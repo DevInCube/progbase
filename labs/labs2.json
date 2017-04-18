@@ -19,5 +19,12 @@
      "deadline_time": "2017-04-15T18:00:00.000Z",
      "score": 7,
      "link": "/class/pb2/lab/lab6"
+  },
+  {
+     "task_id": "lab7",
+     "title": "Лабораторна робота №7",
+     "deadline_time": "2017-05-13T18:00:00.000Z",
+     "score": 7,
+     "link": "/class/pb2/lab/lab7"
   }
 ]
