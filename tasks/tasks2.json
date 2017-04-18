@@ -55,9 +55,17 @@
      "task_id": "udp",
      "extra" : false,
      "title": "Networking. UDP",
-     "deadline_time": "2017-04-19T08:00:00.000Z",
+     "deadline_time": "2017-04-24T08:00:00.000Z",
      "score": 3,
      "link": "/class/pb2/task/udp"
+  },
+  {
+     "task_id": "tcp_client",
+     "extra" : false,
+     "title": "Networking. TCP",
+     "deadline_time": "2017-04-24T08:00:00.000Z",
+     "score": 3,
+     "link": "/class/pb2/task/tcp_client"
   },
   {
      "task_id": "ci",
