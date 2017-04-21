@@ -68,6 +68,14 @@
      "link": "/class/pb2/task/tcp_client"
   },
   {
+     "task_id": "threads",
+     "extra" : false,
+     "title": "Threads",
+     "deadline_time": "2017-05-09T08:00:00.000Z",
+     "score": 3,
+     "link": "/class/pb2/task/threads"
+  },
+  {
      "task_id": "ci",
      "extra": true,
      "title": "Continuous Integration",
