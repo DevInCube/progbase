@@ -1,0 +1,28 @@
+<%
+  var variant = parseInt($var);
+  var groupnum = ($group && ($group.length > 1) && !isNaN(parseInt($group[1]))) ? parseInt($group[1]) : 0;
+  var n0 = parseInt($var[1]);
+  var n1 = parseInt($var[0]);
+ 
+  var tasks = [
+    `__@TODO__`
+  ];
+  
+  var task = tasks[variant % tasks.length];
+%>
+
+## HTTP сервер
+
+#### Мета:
+
+
+
+#### Крок №1. 
+
+#### Матеріали:
+
+1. [Лекція. Клієнт-серверна архітектура програм. Сокети, протоколи IP, TCP i UDP.][lec-1]
+2. [Лекція. World Wide Web (WWW). URL. Протокол HTTP][http-lec]
+
+[lec-1]: https://docs.google.com/document/d/1Lm-2s3EyzOd7ynPMKzi53y3kbZ_UwagXfhWCp6dv4sw/edit?usp=sharing
+[http-lec]: https://docs.google.com/document/d/1aUdlTlbHDYhhdf2gVs1j94FmBrLviKb8QLfFVxqi-0A/edit#heading=h.1ii1x15xikxx
