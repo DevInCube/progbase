@@ -1,16 +1,23 @@
 [
   {
      "task_id": "lab1",
-     "title": "Лабораторна робота №1",
+     "title": "Ідея проекту",
      "deadline_time": "2017-02-25T18:00:00.000Z",
      "score": 5,
      "link": "/class/gd/lab/lab1"
   },
   {
      "task_id": "lab2",
-     "title": "Лабораторна робота №2",
+     "title": "Планування спринта",
      "deadline_time": "2017-03-17T18:00:00.000Z",
      "score": 10,
      "link": "/class/gd/lab/lab2"
+  },
+  {
+     "task_id": "lab3",
+     "title": "Демонстрація спринта №1",
+     "deadline_time": "2017-03-17T18:00:00.000Z",
+     "score": 20,
+     "link": "/class/gd/lab/lab3"
   }
 ]
