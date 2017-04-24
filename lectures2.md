@@ -22,8 +22,8 @@
 #### Розділ 5. Процеси та потоки. Міжпроцесна та мережева взаємодія
 
 -   [__Лекція__. Клієнт-серверна архітектура програм. Сокети, протоколи IP, TCP i UDP.][networking]
+-   [__Лекція__. World Wide Web (WWW). URL. Протокол HTTP][http]
 -   [__Лекція__. Потоки і багатопоточність у мові С. Синхронізація потоків, примітиви синхронізації і критичні секції коду.][threads]
--   [__Лекція__. Сервісні програми Linux (daemons).][daemons]
 
 ### Література
 
@@ -42,9 +42,9 @@
   [oop]: https://docs.google.com/document/d/1Jq4hZeAM7aXj_Bvb50P9qu0KPZcHLVbj_egefPQ1sBo/edit?usp=sharing
   [events]: https://docs.google.com/document/d/1Hg5nt4DAp9WtC8AvtW3bmf6MhLCiCPnxhg0k5EuQiGQ/edit?usp=sharing
   [gui]: https://docs.google.com/document/d/1CB5jHlYMSSo7IilO98m28cvhbSpt5N-LxC0DZ2T-SRc/edit?usp=sharing
-  [threads]: https://docs.google.com/document/d/15YreOl5UPTw0syDZWzqy2Rk0v8gLfnxDmz9vNJsHZ3k/edit?usp=sharing
   [networking]: https://docs.google.com/document/d/1Lm-2s3EyzOd7ynPMKzi53y3kbZ_UwagXfhWCp6dv4sw/edit?usp=sharing
-  [daemons]: #
+  [http]: https://docs.google.com/document/d/1aUdlTlbHDYhhdf2gVs1j94FmBrLviKb8QLfFVxqi-0A/edit#heading=h.1ii1x15xikxx
+  [threads]: https://docs.google.com/document/d/15YreOl5UPTw0syDZWzqy2Rk0v8gLfnxDmz9vNJsHZ3k/edit?usp=sharing
   [cpp1]: https://docs.google.com/document/d/1k-u5j_5zpMB8bV0k51wImwWoJvChu46JL6gEFDI0l2w/edit?usp=sharing
   [cpp2]: https://docs.google.com/document/d/18uJTTdvPfSDXoOko0vv6w_OWUXITi41PdcybDSKlvxY/edit?usp=sharing
   [cpp3]: https://docs.google.com/document/d/13Fl1TRaBmsGamR0XzPf00_d9FRd2Q3qhdMqvdjcnLbc/edit?usp=sharing
