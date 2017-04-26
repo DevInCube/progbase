@@ -25,6 +25,13 @@
 -   [__Лекція__. World Wide Web (WWW). URL. Протокол HTTP][http]
 -   [__Лекція__. Потоки і багатопоточність у мові С. Синхронізація потоків, примітиви синхронізації і критичні секції коду.][threads]
 
+#### Презентації
+
+-   [Callbacks & EventSystem](https://docs.google.com/presentation/d/1n7E7y7hHNl-_4msearbVbrZ0zEdwTBVSyE68ZxCghDY/edit?usp=sharing)
+-   [Networking. IP, UDP, TCP](https://docs.google.com/presentation/d/1tDlEVRAC-w4JtCEB4HLzZziL956nkn26OLQLVUCD610/edit?usp=sharing)
+-   [HTTP. Threads](https://docs.google.com/presentation/d/1p_9uxuXEMIzJdhvgu6HNtj3ck7tB9OFE0I4vErsDsnw/edit?usp=sharing)
+-   [Summary](https://docs.google.com/presentation/d/1uC28Q3qWpcArRGyGr5aDOmztsqFNIUDZrwukYG5ImK0/edit?usp=sharing)
+
 ### Література
 
 1.  [Jens Gustedt - Modern C, 2015 [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8fUExoYzNlMFNLNDA/view?usp=sharing)
