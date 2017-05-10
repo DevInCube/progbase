@@ -19,5 +19,12 @@
      "deadline_time": "2017-04-13T18:00:00.000Z",
      "score": 20,
      "link": "/class/gd/lab/lab3"
+  },
+  {
+     "task_id": "lab4",
+     "title": "Демонстрація останнього спринта",
+     "deadline_time": "2017-06-03T18:00:00.000Z",
+     "score": 25,
+     "link": "/class/gd/lab/lab4"
   }
 ]
