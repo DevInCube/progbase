@@ -19,5 +19,12 @@
      "deadline_time": "2017-05-10T08:00:00.000Z",
      "score": 5,
      "link": "/class/gd/task/artifacts"
+  }, 
+  {
+     "task_id": "docs",
+     "title": "Project documentation",
+     "deadline_time": "2017-06-03T08:00:00.000Z",
+     "score": 10,
+     "link": "/class/gd/task/docs"
   }
 ]
