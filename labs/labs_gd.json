@@ -24,7 +24,14 @@
      "task_id": "lab4",
      "title": "Демонстрація останнього спринта",
      "deadline_time": "2017-06-03T18:00:00.000Z",
-     "score": 25,
+     "score": 20,
      "link": "/class/gd/lab/lab4"
+  },
+  {
+     "task_id": "lab5",
+     "title": "Відеоролик продукту",
+     "deadline_time": "2017-06-03T18:00:00.000Z",
+     "score": 10,
+     "link": "/class/gd/lab/lab5"
   }
 ]
