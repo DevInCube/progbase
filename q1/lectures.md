@@ -4,6 +4,7 @@
 
 #### Задачі
 
+* [C Puzzles](http://www.gowrikumar.com/c/index.php)
 * [Advent of Code 2016](http://adventofcode.com/2016/)
 * [Project Euler](https://projecteuler.net)
     * [#59. _XOR decryption_](https://projecteuler.net/problem=59)
