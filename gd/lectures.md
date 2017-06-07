@@ -17,6 +17,7 @@
 #### Arduino
 
 - [Програмування на Arduino Uno][arduino-uno]
+- [Книга по основах Arduino [pdf, rus]][arduino-book]
 
 #### Git
 
@@ -32,6 +33,7 @@
 - [A Survey of Agile Development Methodologies][5]
 
   [arduino-uno]: https://docs.google.com/document/d/17H5htTegK6TyX94-zfezOF47gK0z6ezXyu0hwhOmU_s/edit?usp=sharing
+  [arduino-book]: http://dl.borevich.ru/Books/Arduino.pdf
   [models]: https://docs.google.com/document/d/1A3TUqxnawDMib4efsMcg3GZo2NFH16u9zt20FqO-urs/edit?usp=sharing
   [agile]:  https://docs.google.com/document/d/1WywhdrMJnKD2ZnbVZ_d9iEJh9pCyjmPNK2u5jTr6g2c/edit?usp=sharing
   [scrum]:  https://docs.google.com/document/d/1xwSbxaTLM8vg8VteU2MWyODZA3VjGSdHAvn9QgzdgOk/edit?usp=sharing
