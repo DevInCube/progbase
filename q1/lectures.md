@@ -9,6 +9,7 @@
 * [Project Euler](https://projecteuler.net)
     * [#59. _XOR decryption_](https://projecteuler.net/problem=59)
     * [#195. _Inscribed circles of triangles with one angle of 60 degrees_](https://projecteuler.net/problem=195)
+* [Practice GeeksForGeeeks](http://practice.geeksforgeeks.org/tags.php)
     
 #### Web-квести
 
