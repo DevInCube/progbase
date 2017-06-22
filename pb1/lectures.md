@@ -58,6 +58,7 @@
 *  [K. N. King. - C Programming. A modern approach [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8fS0JncXUzVkVoTDg/view?usp=sharing)
 *  [Hartel P., Muller H. - Functional C, 1999
     [pdf]](http://eprints.eemcs.utwente.nl/1077/02/book.pdf)
+*  [learn-c.org [web]](http://www.learn-c.org)
 *  [GeeksForGeeks C [web]](http://www.geeksforgeeks.org/c/)
 *  Шилдт Г. - Полный справочник по C
 
