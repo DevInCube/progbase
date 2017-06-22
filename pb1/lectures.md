@@ -16,11 +16,12 @@
     конструкції](https://docs.google.com/document/d/1PmUllsWngHpd8BFGrBnIpooI5VdWWxWq2IYcn5qRUY8/edit?usp=sharing)
 -   [__Лекція 3__. Алгоритми. Циклічні
     конструкції](https://docs.google.com/document/d/12wYgeWfLkiFkVb4tbt-JnMwxWCLiD8EZj05A63f3KEY/edit?usp=sharing)
--   [__Лекція 4__. ЕОМ. Архітектура комп’ютера. Організація комп’ютерної
+-   [__Лекція 4__. Програма. Теорія автоматів](https://docs.google.com/document/d/1Wwey2zVRy6k_1aIM3AQvi8w7tlMKYaMCh8RZfl8m7zM/edit?usp=sharing)
+-   [__Лекція 5__. ЕОМ. Архітектура комп’ютера. Організація комп’ютерної
     пам’яті](https://docs.google.com/document/d/1dYTmerjpkVrSo0nK-vtVuUMA6TO_18DKG2ghqRtLqbw/edit?usp=sharing)
--   [__Лекція 5__. Представлення даних у комп’ютерній
+-   [__Лекція 6__. Представлення даних у комп’ютерній
     пам’яті](https://docs.google.com/document/d/1-0foDUOfWb0gFDmPGHTbHhLwItNq473m0r5DUAm1FPs/edit?usp=sharing)
--   [__Лекція 6__. Операційні
+-   [__Лекція 7__. Операційні
     системи](https://docs.google.com/document/d/1wKvvU5tXSOyxudQL4zMQ_qt7C3WO7y4zxixxNpd7D3o/edit?usp=sharing)
 -   [__Практика 1__. Використання циклів та умовних конструкцій для малювання у консолі](https://docs.google.com/document/d/1L4ZMCn4xat64OYzhhHUpt90LJfeTKMqcuaZDLBszGd0/edit?usp=sharing)
 
