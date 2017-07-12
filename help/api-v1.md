@@ -3,7 +3,7 @@
 Весь доступ до API відбувається через HTTPS та базовий URL `https://progbase.herokuapp.com/api/v1`. 
 Всі дані відправляються і отримуються у форматі JSON.
 
-Час подається у форматі ISO 8601:
+Час подається у форматі [ISO 8601][date-iso]:
 
 ```
 YYYY-MM-DDTHH:MM:SSZ
@@ -17,9 +17,9 @@ GET https://progbase.herokuapp.com/api/v1
 
 Повертає словник зі всіма ресурсами, що доступні у API.
 
-## Авторизація
+## Аутентифікація
 
-Частина ресурсів доступні без авторизації, але деякі із ресурсів потребують [базової авторизації][basic-auth] для доступу до них. 
+Частина ресурсів доступні без аутентифікації, але деякі із ресурсів потребують [базової аутентифікації][basic-auth] для доступу до них. 
 
 Логіном слугує ім'я користувача BitBucket, з яким ви зареєстровані на Progbase. 
 Пароль можна задати у спеціальному полі на [сторінці профілю][pb-profile].
@@ -37,3 +37,4 @@ GET https://progbase.herokuapp.com/api/v1
 
   [basic-auth]: https://docs.oracle.com/cd/E24191_01/common/tutorials/authn_http_basic.html
   [pb-profile]: /profile 
+  [date-iso]: https://en.wikipedia.org/wiki/ISO_8601
