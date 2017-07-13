@@ -12,8 +12,9 @@
 ### Середовище розробки
 
 - Можна працювати у будь-якій операційній системі.
-- Встановити і налаштувати [__Visual Studio Code__][vscode] із розширеннями: *.ejs* та *ESLint*.
 - Встановити [останню версію __NodeJS__][nodejs]: `sudo apt-get install nodejs`
+- Глобально встановити [__ESLint__][eslint]: `npm install -g eslint` (у Windows після цього варто перезавантажити ОС).
+- Встановити і налаштувати [__Visual Studio Code__][vscode] із розширеннями: *.ejs* та *ESLint*.
 
 ### Вміння роботи з Git
 
@@ -34,6 +35,7 @@
 * [Лекція 3. Об'єкти JavaScript][lec3]
 
   [nodejs]: https://nodejs.org/en/
+  [eslint]: http://eslint.org/
   [vscode]: https://code.visualstudio.com/
   [bb]: https://bitbucket.org
   [gitignore]: https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore
