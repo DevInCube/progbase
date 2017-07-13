@@ -3,54 +3,63 @@
      "task_id": "lab1",
      "title": "Лабораторна робота №1",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": true
   },
   {
      "task_id": "lab2",
      "title": "Лабораторна робота №2",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": false
   },
   {
      "task_id": "lab3",
      "title": "Лабораторна робота №3",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": false
   },
   {
      "task_id": "lab4",
      "title": "Лабораторна робота №4",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": false
   },
   {
      "task_id": "lab5",
      "title": "Лабораторна робота №5",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": false
   },
   {
      "task_id": "lab6",
      "title": "Лабораторна робота №6",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": false
   },
   {
      "task_id": "lab7",
      "title": "Лабораторна робота №7",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": false
   },
   {
      "task_id": "lab8",
      "title": "Лабораторна робота №8",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": false
   },
   {
      "task_id": "lab9",
      "title": "Лабораторна робота №9",
      "deadline_time": "2017-09-23T18:00:00.000Z",
-     "score": 7
+     "score": 7,
+     "published": false
   }
 ]
