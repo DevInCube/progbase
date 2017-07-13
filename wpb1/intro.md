@@ -6,13 +6,14 @@
 1. У розділі `Settings -> Access management` додайте у режимі `ADMIN` користувача __`phadyniak`__.
 1. У розділі `Settings -> Webhooks` створіть новий webhook із назвою __`Progbase`__ та посиланням __`https://progbase-service.herokuapp.com/bbhook`__.
 1. Виконайте `git clone` репозиторію у локальний репозиторій і створіть у ньому файл `.gitignore` та додайте у файл [даний вміст][gitignore].
-1. Створіть дві директорії: `tasks` i `labs` та додайте у них по одному пустому текстовому файлу із назвою `index`.
+1. Створіть директорію: `labs` та додайте у неї пустий текстовий файл із назвою `index`.
 1. Збережіть та надішліть зміни у віддалений репозиторій
 
-### Інструменти розробки
+### Середовище розробки
 
-- Встановити і налаштувати __Visual Studio Code__ із розширеннями: *.ejs* та *ESLint*.
-- Встановити __NodeJS__: `sudo apt-get install nodejs`
+- Можна працювати у будь-якій операційній системі.
+- Встановити і налаштувати [__Visual Studio Code__][vscode] із розширеннями: *.ejs* та *ESLint*.
+- Встановити [останню версію __NodeJS__][nodejs]: `sudo apt-get install nodejs`
 
 ### Вміння роботи з Git
 
@@ -26,12 +27,14 @@
 
 ### Основи мови програмування JavaScript
 
-Розпочати самостійне ознайомлення з мовою програмування __JavaScript__ (Розділи “Додатково” можна упускати) і вміти запускати її скрипти у браузері:
+Розпочати самостійне ознайомлення з мовою програмування __JavaScript__ (розділи “Додатково” можна упускати) і вміти запускати її скрипти у браузері та у терміналі ОС за допомогою NodeJS:
 
 * [Лекція 1. Базовий синтаксис JavaScript][lec1]
 * [Лекція 2. Функції JavaScript][lec2]
 * [Лекція 3. Об'єкти JavaScript][lec3]
 
+  [nodejs]: https://nodejs.org/en/
+  [vscode]: https://code.visualstudio.com/
   [bb]: https://bitbucket.org
   [gitignore]: https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore
   [git1]: http://zeroturnaround.com/rebellabs/git-commands-and-best-practices-cheat-sheet/
