@@ -3,7 +3,7 @@
 * [__Лекція 2__. World Wide Web (WWW). URL. Протоколи FTP та HTTP. URL](https://docs.google.com/document/d/1aUdlTlbHDYhhdf2gVs1j94FmBrLviKb8QLfFVxqi-0A/edit?usp=sharing)
 * [__Лекція 3__. Веб-документи. HTML](https://docs.google.com/document/d/1Tv8rHao5HrPVEXb-oBW0PBNob6lxxRNrDgeYRsNXrUM/edit?usp=sharing)
 * [__Лекція 4__. CSS стилі для HTML-сторінок. CSS препроцесори](https://docs.google.com/document/d/1GW0ElUPt42Ovl1N-0vdzh5Ov0Pmc_XcVVm1vh5_Om_0/edit?usp=sharing)
-* [__Практика__. Практика. JavaScript, NodeJS та асинхронне програмування](https://docs.google.com/document/d/1rube_UiA7ORdPwocy1gh393GkjAjncSVvwXeCA-GmIw/edit?usp=sharing)
+* [__Практика__. JavaScript, NodeJS та асинхронне програмування](https://docs.google.com/document/d/1rube_UiA7ORdPwocy1gh393GkjAjncSVvwXeCA-GmIw/edit?usp=sharing)
 * [__Практика__. TCP/UDP сервери. Модулі net та dgram](https://docs.google.com/document/d/1mld2i2IOzibbQfRr7puVZnyphCHn0UK3egm39uZFKEg/edit?usp=sharing)
 * [__Практика__. Створення веб-сервера (Node.js)](https://docs.google.com/document/d/1VudR5m8HZ9S7RMNT3ge9b8hED8Lchx-OdPRVPY5gUK8/edit?usp=sharing)
 * [__Практика__. Створення локальних веб-документів. HTML](https://docs.google.com/document/d/1SfcG2e1EjjhKd4cuurEgtgq8J4eb07eOfD4jVn-zYXI/edit?usp=sharing)
