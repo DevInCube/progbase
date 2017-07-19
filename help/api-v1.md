@@ -1,3 +1,5 @@
+> API знаходиться у розробці
+
 ## Точки доступу
 
 Весь доступ до API відбувається через HTTPS та базовий URL `https://progbase.herokuapp.com/api/v1`. 
