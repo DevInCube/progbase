@@ -20,4 +20,4 @@
 
 [c-gitignore]: https://raw.githubusercontent.com/github/gitignore/master/C.gitignore
 [bb]: https://bitbucket.org
-[taskviewer]: /class/pb1/taskviewer
+[taskviewer]: /taskviewer
