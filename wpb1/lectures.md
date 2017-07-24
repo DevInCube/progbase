@@ -38,6 +38,7 @@
 
 ### Література
 * [Mozilla Developer Network [web]][book-mdn]
+* [CS142: Web Applications][cs142]
 * [w3schools.com [web]](http://www.w3schools.com/)
 * [Дж.Фридл - Регулярные выражения, 3-е изд. - O`Reilly [pdf]][book-regex]
 * [CSS3 Cheat Sheet [pdf]][book-css-sheet]
@@ -47,3 +48,4 @@
   [book-css-sheet]: http://media.mediatemple.netdna-cdn.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf
   [python1]: https://docs.google.com/document/d/1T3bio3l5GGc9-4XBGFstfcj8i67MfFygu-bYqvB0haU/edit?usp=sharing
   [github-oauth]: https://docs.google.com/document/d/11BCmzX_n2PqQIUvFN_nAUN31lWw_3s0LBi7-tHu_FoM/edit?usp=sharing
+  [cs142]: http://web.stanford.edu/class/cs142/
