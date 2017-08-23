@@ -184,6 +184,54 @@ GET https://progbase.herokuapp.com/api/v1
 }
 ```
 
+# Webhooks 
+
+Веб-хуки дозволяють підписатися на події сайту і отримувати HTTP POST запити з інформацією про подію на сервер із налаштованого у профілі користувача URL. В поточній версії користувач підписується на всі можливі події.
+
+## Події
+
+Типи подій:
+
+* `commit` - коли студент комітить рішення завдання через BitBucket або сайт Progbase, або коли викладач перевіряє коміт.
+
+Тип події передається у полі `event` JSON тіла запиту. Окрім інформації, що специфічна кожній події, також передається об'єкт `sender` - користувач, що ініціював подію.
+
+### CommitEvent
+
+* `action` - `updated` або `checked`
+* `timestamp` - час коміту
+* `user` - студент, що виконав даний коміт
+* `task` - інформація про завдання
+* `check` - інформація про перевірку завдання викладачем
+
+Приклад:
+
+```json
+{
+   "event":"commit",
+   "action":"checked",
+   "timestamp":"2017-08-23T17:12:01.283Z",
+   "user":{
+      "username":"rhadinus"
+   },
+   "task":{
+      "module_id":"webprogbase",
+      "id":"lab1",
+      "type":"lab",
+      "is_extra":false,
+      "name":"ЛР№1. Клієнт-серверна архітектура програм. Протокол TCP",
+      "score":7
+   },
+   "check":{
+      "comment":"Checked!",
+      "score":3,
+      "timestamp":"2017-08-23T17:14:40.453Z"
+   },
+   "sender":{
+      "username":"phadyniak"
+   }
+}
+```
 
 [api-root]: https://progbase.herokuapp.com/api/v1
 [basic-auth]: https://docs.oracle.com/cd/E24191_01/common/tutorials/authn_http_basic.html
