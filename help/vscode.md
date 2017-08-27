@@ -21,7 +21,8 @@
         return 0;
     }
     ```
-1. Нажміть `Ctrl+Shift+B` і оберіть опцію створення налаштування для збірки програми, потім опцію `Others`. Створиться файл `tasks.json`, у який внесіть даний текст:
+1. Зайдіть у `File->Preferences->Keyboard Shortcuts` і введіть у пошукове поле `Run Build Task` та встановіть клавішу цієї опції на значення `F7`
+1. Нажміть `F7` і оберіть опцію створення налаштування для збірки програми, потім опцію `Others`. Створиться файл `tasks.json`, у який внесіть даний текст:
     ```
     {
 	    // See https://go.microsoft.com/fwlink/?LinkId=733558
@@ -31,7 +32,7 @@
 	        {
 	            "taskName": "Build C",
 	            "type": "shell",
-	            "command": "gcc main.c -o build/a.out -g -Wall -Werror -std=c11",
+	            "command": "gcc main.c -o a.out -g -Wall -Werror -std=c11",
 	            "group": {
 	                "kind": "build",
 	                "isDefault": true
@@ -39,6 +40,6 @@
 	        }
 	    ]
 	}
-	````
-1. Нажміть `F5` оберіть опцію, у якій є строка `C++`. У автоматично створеному файлі `launch.json` замініть строку `enter program name, for example ${workspaceRoot}/a.out` на `gnome-terminal --tab -e \"/bin/bash -c '${workspaceRoot}/build/a.out'\"`
-1. Нажміть `Ctrl+Shift+B` а після успішного завершення `F5`.
+	```
+1. Нажміть `F5` оберіть опцію, у якій є строка `C++`. У автоматично створеному файлі `launch.json` у строці `enter program name, for example ${workspaceRoot}/a.out` видаліть підстроку `enter program name, for example `.
+1. Нажміть `F7`, а після успішного завершення (у директорії проекту створиться файл `a.out`) нажміть `F5`.
