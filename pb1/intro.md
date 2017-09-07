@@ -31,3 +31,6 @@
 [progbase]: https://progbase.herokuapp.com/profile
 [help-register]: https://progbase.herokuapp.com/help/register
 [linux-install]: https://docs.google.com/document/d/1JaZVV6_QryMq6yCK0pUE38Dc7azp_GhBWtGxvaYBk5Q/edit?usp=sharing
+[c-gitignore]: https://raw.githubusercontent.com/github/gitignore/master/C.gitignore
+[bb]: https://bitbucket.org
+[taskviewer]: /taskviewer
