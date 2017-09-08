@@ -50,7 +50,7 @@
 *  [Б. Керниган, Д. Ритчи - Язык программирования Си
     [pdf]](http://studrada.fpm.kpi.ua/archive/Kernigan,Pichi-C-programming.pdf)
 *  [Kernighan B., Ritchie D. - The C programming language
-    [pdf]](https://hassanolity.files.wordpress.com/2013/11/the_c_programming_language_2.pdf)
+    [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8fQ2lpdGtwaDhoX1k/view?usp=sharing)
 *  [The GNU C Reference Manual
     [web]](http://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
 *  [Стивен Прата - Язык программирования С. Лекции и упражнения [pdf]](https://drive.google.com/file/d/0B2DT7H96sv8fLXVQRjZwQmRQdTA/view?usp=sharing)
