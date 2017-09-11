@@ -26,9 +26,6 @@
 1. Створіть у профілі [BitBucket][bb] __приватний__ репозиторій із назвою __`progbase`__.
 1. У розділі `Settings -> User and group access` додайте користувача __`phadyniak`__ (профіль викладача) із правами доступу `Admin`.
 1. У розділі `Settings -> Webhooks` створіть новий __webhook__ із назвою __`Progbase`__ та посиланням __`https://progbase-service.herokuapp.com/bbhook`__ (інші поля за замовчуванням).
-1. Виконайте `git clone` репозиторію у локальний репозиторій і створіть у ньому файл `.gitignore` та додайте у файл [даний вміст][c-gitignore].
-1. Створіть дві директорії: `tasks` i `labs` та додайте у них по одному пустому текстовому файлу із назвою `index`.
-1. Збережіть та надішліть зміни у віддалений репозиторій.
 
 [progbase]: https://progbase.herokuapp.com/profile
 [help-register]: https://progbase.herokuapp.com/help/register
