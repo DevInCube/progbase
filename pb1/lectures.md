@@ -1,3 +1,5 @@
+[Репозиторій з кодом практичних занять](https://github.com/PublicHadyniak/progbase-samples/tree/master/practices/2017)
+
 #### Вступ
 
 -   [__Лекція 1__. Анатомія комп'ютерних програм](https://docs.google.com/document/d/1upRTun9e4kJffITZFq6NISOiKZhzQ_e2FCxrTMDmsnc/edit?usp=sharing)
